@@ -7,9 +7,11 @@ import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 import FilterModal from "./filters/FilterModal";
 import { Settings } from "@mui/icons-material";
+import SettingsModal from "./settings/SettingsModal";
 
 const MenuBar: React.FC = () => {
   const [filterOpen, setFilterOpen] = useState<boolean>(false);
+  const [settingsOpen, setSettingsOpen] = useState<boolean>(false);
 
   return (
     <>
@@ -34,7 +36,7 @@ const MenuBar: React.FC = () => {
             color="inherit"
             aria-label="settings"
             sx={{ mr: 2 }}
-            onClick={() => {}}
+            onClick={() => setSettingsOpen(true)}
           >
             <Settings />
           </IconButton>
@@ -42,6 +44,7 @@ const MenuBar: React.FC = () => {
       </AppBar>
     </Box>
     {filterOpen && <FilterModal filterOpen={filterOpen} setFilterOpen={setFilterOpen} />}
+    {settingsOpen && <SettingsModal settingsOpen={settingsOpen} setSettingsOpen={setSettingsOpen} />}
     </>
   );
 };

@@ -1,8 +1,8 @@
-import { Box, ThemeProvider } from '@mui/material'
+import { Box, ThemeProvider} from '@mui/material'
 import ItemDisplay from './ui/components/display/ItemDisplay'
 import MenuBar from './ui/components/menu/MenuBar'
 import { FiltersProvider } from './ui/context/FilterContext'
-import theme from './ui/theme/Theme'
+import {darkTheme} from './ui/theme/Theme'
 
 const backgroundStyle = {
   bgcolor: "background.default",
@@ -16,7 +16,7 @@ const backgroundStyle = {
 
 function App() {
   return (
-    <ThemeProvider theme={theme}>
+    <ThemeProvider theme={darkTheme}>
       <Box sx={backgroundStyle}>
         <FiltersProvider>
           <MenuBar />

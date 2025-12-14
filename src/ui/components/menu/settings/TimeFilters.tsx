@@ -11,11 +11,11 @@ interface TimeFilterToggles {
 const TimeFilters: React.FC<TimeFilterToggles> = ( {quickForge, setQuickForge, coleQuickForge, setColeQuickForge}: TimeFilterToggles) => {
 
   const toggleQuickForge = (
-    <FormControlLabel control={<Switch defaultChecked={quickForge} onClick={() => setQuickForge(!quickForge)}/>} label="Apply Quick Forge" />
+    <FormControlLabel control={<Switch checked={quickForge} onClick={() => setQuickForge(!quickForge)}/>} label="Apply Quick Forge" />
   );
 
   const toggleColeQuickForge = (
-    <FormControlLabel control={<Switch defaultChecked={coleQuickForge} onClick={() => setColeQuickForge(!coleQuickForge)}/>} label="Apply Cole Quick Forge" />
+    <FormControlLabel control={<Switch checked={coleQuickForge} onClick={() => setColeQuickForge(!coleQuickForge)}/>} label="Apply Cole Quick Forge" />
   );
 
   return (

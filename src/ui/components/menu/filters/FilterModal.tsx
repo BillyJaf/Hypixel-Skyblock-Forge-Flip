@@ -5,7 +5,6 @@ import { Button, Modal } from "@mui/material";
 import BazaarFilters from "./BazaarFilters";
 import { useFilters } from "../../../context/FilterContext";
 import AuctionFilters from "./AuctionFilters";
-import TimeFilters from "./TimeFilters";
 
 const mainBoxStyle = {   
     position: "absolute",
@@ -13,7 +12,7 @@ const mainBoxStyle = {
     left: "50%",
     transform: "translate(-50%, -50%)",
     width: 360,
-    height: 480,
+    height: 360,
     border: "2px solid black",
     boxShadow: 24,
     p: 3,
@@ -47,9 +46,6 @@ interface FilterOpen {
 const FilterModal: React.FC<FilterOpen> = ( {filterOpen, setFilterOpen} : FilterOpen) => {
   const { filters, setFilters } = useFilters();
 
-  const [searchItem, setSearchItem] = useState<string>(filters.searchItem);
-  const [quickForge, setQuickForge] = useState<boolean>(filters.quickForge);
-  const [coleQuickForge, setColeQuickForge] = useState<boolean>(filters.coleQuickForge);
   const [includeBazaarItems, setIncludeBazaarItems] = useState<boolean>(filters.includeBazaarItems);
   const [includeGemstones, setIncludeGemstones] = useState<boolean>(filters.includeGemstones);
   const [includeReforges, setIncludeReforges] = useState<boolean>(filters.includeReforges);
@@ -62,7 +58,7 @@ const FilterModal: React.FC<FilterOpen> = ( {filterOpen, setFilterOpen} : Filter
       variant="contained"
       onClick={() => {
         setFilters({
-          searchItem, quickForge, coleQuickForge, includeBazaarItems, includeGemstones, includeReforges, includeAuctionItems, includePets, includeTools
+          ...filters, includeBazaarItems, includeGemstones, includeReforges, includeAuctionItems, includePets, includeTools
         })
         setFilterOpen(false)
       }}
@@ -86,7 +82,6 @@ const FilterModal: React.FC<FilterOpen> = ( {filterOpen, setFilterOpen} : Filter
                     Filter Items
                 </Typography>
             </Box>
-            <TimeFilters quickForge={quickForge} setQuickForge={setQuickForge} coleQuickForge={coleQuickForge} setColeQuickForge={setColeQuickForge} />
             <BazaarFilters includeBazaarItems={includeBazaarItems} setIncludeBazaarItems={setIncludeBazaarItems} includeGemstones={includeGemstones} setIncludeGemstones={setIncludeGemstones} includeReforges={includeReforges} setIncludeReforges={setIncludeReforges}/>
             <AuctionFilters includeAuctionItems={includeAuctionItems} setIncludeAuctionItems={setIncludeAuctionItems} includePets={includePets} setIncludePets={setIncludePets} includeTools={includeTools} setIncludeTools={setIncludeTools}/>
             {applyFilters}

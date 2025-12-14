@@ -13,15 +13,15 @@ interface AuctionFilterToggles {
 const AuctionFilters: React.FC<AuctionFilterToggles> = ( {includeAuctionItems, setIncludeAuctionItems, includePets, setIncludePets, includeTools, setIncludeTools}: AuctionFilterToggles) => {
 
   const toggleIncludeAuctionItems = (
-    <FormControlLabel control={<Switch defaultChecked={includeAuctionItems} onClick={() => setIncludeAuctionItems(!includeAuctionItems)}/>} label="Include Auction Items" />
+    <FormControlLabel control={<Switch checked={includeAuctionItems} onClick={() => setIncludeAuctionItems(!includeAuctionItems)}/>} label="Include Auction Items" />
   );
 
   const toggleIncludePets = (
-    <FormControlLabel disabled={!includeAuctionItems} control={<Switch defaultChecked={includePets} onClick={() => setIncludePets(!includePets)}/>} label="Include Pets" />
+    <FormControlLabel disabled={!includeAuctionItems} control={<Switch checked={includePets} onClick={() => setIncludePets(!includePets)}/>} label="Include Pets" />
   );
 
   const toggleIncludeTools = (
-    <FormControlLabel disabled={!includeAuctionItems} control={<Switch defaultChecked={includeTools} onClick={() => setIncludeTools(!includeTools)}/>} label="Include Tools" />
+    <FormControlLabel disabled={!includeAuctionItems} control={<Switch checked={includeTools} onClick={() => setIncludeTools(!includeTools)}/>} label="Include Tools" />
   );
 
   return (

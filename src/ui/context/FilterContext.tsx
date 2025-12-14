@@ -1,7 +1,11 @@
 import { createContext, useContext, useState } from "react";
 import { defaultFilters } from "../utils/constants";
+import type { BuyFrom, SellTo, SortBy } from "../types/sort";
 
 export interface Filters {
+  sortBy: SortBy;
+  buyFrom: BuyFrom;
+  sellTo: SellTo;
   searchItem: string;
   quickForge: boolean;
   coleQuickForge: boolean;

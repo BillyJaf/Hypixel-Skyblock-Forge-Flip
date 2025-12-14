@@ -13,15 +13,15 @@ interface BazaarFilterToggles {
 const BazaarFilters: React.FC<BazaarFilterToggles> = ( {includeBazaarItems, setIncludeBazaarItems, includeGemstones, setIncludeGemstones, includeReforges, setIncludeReforges}: BazaarFilterToggles) => {
 
   const toggleIncludeBazaarItems = (
-    <FormControlLabel control={<Switch defaultChecked={includeBazaarItems} onClick={() => setIncludeBazaarItems(!includeBazaarItems)}/>} label="Include Bazaar Items" />
+    <FormControlLabel control={<Switch checked={includeBazaarItems} onClick={() => setIncludeBazaarItems(!includeBazaarItems)}/>} label="Include Bazaar Items" />
   );
 
   const toggleIncludeGemstones = (
-    <FormControlLabel disabled={!includeBazaarItems} control={<Switch defaultChecked={includeGemstones} onClick={() => setIncludeGemstones(!includeGemstones)}/>} label="Include Gemstones" />
+    <FormControlLabel disabled={!includeBazaarItems} control={<Switch checked={includeGemstones} onClick={() => setIncludeGemstones(!includeGemstones)}/>} label="Include Gemstones" />
   );
 
   const toggleIncludeReforges = (
-    <FormControlLabel disabled={!includeBazaarItems} control={<Switch defaultChecked={includeReforges} onClick={() => setIncludeReforges(!includeReforges)}/>} label="Include Reforges" />
+    <FormControlLabel disabled={!includeBazaarItems} control={<Switch checked={includeReforges} onClick={() => setIncludeReforges(!includeReforges)}/>} label="Include Reforges" />
   );
 
   return (

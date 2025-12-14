@@ -2,6 +2,8 @@ import React from "react";
 import styles from "./ItemDisplay.module.css"
 import { Box, Typography } from "@mui/material";
 import type { ForgeItem } from "../../types/forge.ts";
+import ItemCardData from "./ItemCardData.tsx";
+import { useFilters } from "../../context/FilterContext.tsx";
 
 const itemCardMainBoxStyle = {
     width: 360,
@@ -35,6 +37,8 @@ interface ItemCardProps {
 }
 
 const ItemCard: React.FC<ItemCardProps> = ({ forgeItem }: ItemCardProps) => {
+  
+  const { filters } = useFilters();
 
   return (
     <Box sx={itemCardMainBoxStyle}>
@@ -44,6 +48,10 @@ const ItemCard: React.FC<ItemCardProps> = ({ forgeItem }: ItemCardProps) => {
                 {forgeItem.displayName}
             </Typography>
         </Box>
+        <ItemCardData title={`Ingredients ${filters.buyFrom}:`} data={"0"}/>
+        <ItemCardData title={`Ingredients ${filters.sellTo}:`} data={"0"}/>
+        <ItemCardData title={"Time To Forge:"} data={`${forgeItem.minutesToForge}`}/>
+        <ItemCardData title={`${filters.sortBy}:`} data={filters.sortBy === "Profit Per Hour" ? `${forgeItem.profitPerHour}` : `${forgeItem.profitPerForge}`}/>
     </Box>
   );
 };
