@@ -6,7 +6,38 @@ import BazaarFilters from "./BazaarFilters";
 import { useFilters } from "../../../context/FilterContext";
 import AuctionFilters from "./AuctionFilters";
 import TimeFilters from "./TimeFilters";
-import { headerBoxStyle, mainBoxStyle } from "../../../utils/constants";
+
+const mainBoxStyle = {   
+    position: "absolute",
+    top: "50%",
+    left: "50%",
+    transform: "translate(-50%, -50%)",
+    width: 360,
+    height: 480,
+    border: "2px solid black",
+    boxShadow: 24,
+    p: 3,
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "space-between",
+    alignItems: "center",
+    borderRadius: 5,
+    outline: "none",
+    color: "text.primary",
+    bgcolor: "background.paper",
+}
+
+const headerBoxStyle = {
+  fontSize: 20,
+  fontWeight: 600,
+  pb: 1,
+  borderBottom: "1px solid grey",
+  px: 4,
+  width: "80%",
+  display: "flex",
+  justifyContent: "center",
+  alignItems: "center"
+};
 
 interface FilterOpen {
     filterOpen: boolean;
@@ -41,17 +72,15 @@ const FilterModal: React.FC<FilterOpen> = ( {filterOpen, setFilterOpen} : Filter
     </Button>
   );
 
-  const modalHeight = 480;
-  const modalWidth = 360;
-
   return (
     <Modal
         open={filterOpen}
         onClose={() => setFilterOpen(false)}
         aria-labelledby="modal-modal-title"
         aria-describedby="modal-modal-description"
+        color="inherit"
     >
-        <Box sx={mainBoxStyle(modalHeight, modalWidth)}>
+        <Box sx={mainBoxStyle}>
             <Box sx={headerBoxStyle}>
                 <Typography variant="h6" component="div">
                     Filter Items
