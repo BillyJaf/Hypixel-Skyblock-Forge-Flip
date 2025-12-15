@@ -1,8 +1,10 @@
 import React from "react";
-import styles from "./ItemDisplay.module.css"
 import ItemCard from "./ItemCard";
 import { forgeableItems } from "../../utils/forgeableItems";
 import { Box } from "@mui/material";
+import { useFilters } from "../../context/FilterContext";
+import { applyFilters } from "../../utils/filters";
+import { forgeableAuctionItems, forgeableBazaarItems } from "../../utils/itemGroups";
 
 export const itemCardDisplay = {
   display: "grid",
@@ -19,10 +21,12 @@ export const itemCardDisplay = {
 }
 
 const ItemDisplay: React.FC = () => {
+  const { filters } = useFilters();
+  const filteredItems = applyFilters(forgeableItems, filters);
 
   return (
     <Box sx={itemCardDisplay}>
-        {forgeableItems.map((forgeItem) => {
+        {filteredItems.map((forgeItem) => {
             return (
             <Box key={`${forgeItem.displayName}-Card`}>
                 <ItemCard forgeItem={forgeItem} />

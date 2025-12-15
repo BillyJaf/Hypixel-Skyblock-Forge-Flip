@@ -17,7 +17,7 @@ export interface ForgeItem {
   imageName: string;
   apiName: string;
   whereToSell: Market;
-  minutesToForge: number;
+  secondsToForge: number;
   ingredients: Ingredient[];
   instaSellPrice: number | null;
   sellOfferPrice: number | null; // If whereToBuy == auction, then there is no buy order price

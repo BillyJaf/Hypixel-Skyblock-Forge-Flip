@@ -4,6 +4,7 @@ import { Box, Typography } from "@mui/material";
 import type { ForgeItem } from "../../types/forge.ts";
 import ItemCardData from "./ItemCardData.tsx";
 import { useFilters } from "../../context/FilterContext.tsx";
+import { timeVisualiser } from "../../utils/time.ts";
 
 const itemCardMainBoxStyle = {
     width: 360,
@@ -39,6 +40,7 @@ interface ItemCardProps {
 const ItemCard: React.FC<ItemCardProps> = ({ forgeItem }: ItemCardProps) => {
   
   const { filters } = useFilters();
+  const itemTime = timeVisualiser(forgeItem.secondsToForge, filters.quickForge, filters.coleQuickForge);
 
   return (
     <Box sx={itemCardMainBoxStyle}>
@@ -49,8 +51,8 @@ const ItemCard: React.FC<ItemCardProps> = ({ forgeItem }: ItemCardProps) => {
             </Typography>
         </Box>
         <ItemCardData title={`Ingredients ${filters.buyFrom}:`} data={"0"}/>
-        <ItemCardData title={`Ingredients ${filters.sellTo}:`} data={"0"}/>
-        <ItemCardData title={"Time To Forge:"} data={`${forgeItem.minutesToForge}`}/>
+        <ItemCardData title={`Product ${filters.sellTo}:`} data={"0"}/>
+        <ItemCardData title={"Time To Forge:"} data={`${itemTime}`}/>
         <ItemCardData title={`${filters.sortBy}:`} data={filters.sortBy === "Profit Per Hour" ? `${forgeItem.profitPerHour}` : `${forgeItem.profitPerForge}`}/>
     </Box>
   );
