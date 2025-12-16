@@ -58,7 +58,7 @@ const FilterModal: React.FC<FilterOpen> = ( {filterOpen, setFilterOpen} : Filter
       variant="contained"
       onClick={() => {
         setFilters({
-          ...filters, includeBazaarItems, includeGemstones, includeReforges, includeAuctionItems, includePets, includeTools
+          ...filters, includeBazaarItems, includeGemstones, includeReforges, includeAuctionItems, includePets, includeTools, searchItem: null,
         })
         setFilterOpen(false)
       }}

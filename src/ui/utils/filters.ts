@@ -7,7 +7,7 @@ export const defaultFilters: Filters = {
   sortBy: "Profit Per Hour",
   buyFrom: "Insta Buy",
   sellTo: "Insta Sell",
-  searchItem: "",
+  searchItem: null,
   quickForge: false,
   coleQuickForge: false,
   includeBazaarItems: true,
@@ -19,6 +19,11 @@ export const defaultFilters: Filters = {
 }
 
 export const applyFilters = (forgeItems: ForgeItem[], filters: Filters) => {
+  if (filters.searchItem !== null) {
+    const searchedItem = forgeItems.filter((item) => item.displayName === filters.searchItem)
+    return searchedItem
+  }
+
   let result = forgeItems;
 
   if (!filters.includeBazaarItems) {
@@ -57,5 +62,5 @@ export const applyFilters = (forgeItems: ForgeItem[], filters: Filters) => {
     }
   })
 
-  return result.map(item => ({ ...item }));
+  return result.map(item => ({ ...item })) as ForgeItem[];
 }

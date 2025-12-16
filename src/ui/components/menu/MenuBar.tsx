@@ -8,6 +8,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import FilterModal from "./filters/FilterModal";
 import { Settings } from "@mui/icons-material";
 import SettingsModal from "./settings/SettingsModal";
+import SearchBar from "./search.tsx/SearchBar";
 
 const MenuBar: React.FC = () => {
   const [filterOpen, setFilterOpen] = useState<boolean>(false);
@@ -31,6 +32,7 @@ const MenuBar: React.FC = () => {
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             Hypixel Skyblock Forge Flipper
           </Typography>
+          <SearchBar />
           <IconButton
             size="large"
             color="inherit"

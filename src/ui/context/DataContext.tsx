@@ -23,11 +23,11 @@ export const DataProvider: React.FC<{ children: React.ReactNode }> = ({
   useEffect(() => {
     fetchBazaarQuickStatus().then((quickStatuses) => {
 
-      const ingredientsWithPrices = fillBazaarIngredientPrices(ingredients, quickStatuses)
-      setIngredients(ingredientsWithPrices.map(item => ({ ...item })))
+      // const ingredientsWithPrices = fillBazaarIngredientPrices(ingredients, quickStatuses)
+      // setIngredients(ingredientsWithPrices.map(item => ({ ...item })))
 
-      const itemsWithPrices = fillBazaarItemPrices(items, quickStatuses)
-      setItems(itemsWithPrices.map(item => ({ ...item })))
+      // const itemsWithPrices = fillBazaarItemPrices(items, quickStatuses)
+      // setItems(itemsWithPrices.map(item => ({ ...item })))
     })
   }, []);
 

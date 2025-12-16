@@ -6,7 +6,7 @@ export interface Filters {
   sortBy: SortBy;
   buyFrom: BuyFrom;
   sellTo: SellTo;
-  searchItem: string;
+  searchItem: string | null;
   quickForge: boolean;
   coleQuickForge: boolean;
   includeBazaarItems: boolean;

@@ -60,7 +60,7 @@ const SettingsModal: React.FC<SettingsOpen> = ( {settingsOpen, setSettingsOpen} 
       variant="contained"
       onClick={() => {
         setFilters({
-          ...filters, quickForge, coleQuickForge, sortBy, buyFrom, sellTo
+          ...filters, quickForge, coleQuickForge, sortBy, buyFrom, sellTo,
         })
         setSettingsOpen(false)
       }}
