@@ -128,8 +128,8 @@ const refinedDiamond: ForgeItem = {
   secondsToForge: 28800,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 2,
@@ -146,8 +146,8 @@ const refinedMithril: ForgeItem = {
   secondsToForge: 21600,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 160,
@@ -164,8 +164,8 @@ const refinedTitanium: ForgeItem = {
   secondsToForge: 43200,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 16,
@@ -182,8 +182,8 @@ const refinedTungsten: ForgeItem = {
   secondsToForge: 3600,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 160,
@@ -200,8 +200,8 @@ const refinedUmber: ForgeItem = {
   secondsToForge: 3600,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 160,
@@ -218,8 +218,8 @@ const fuelCanister: ForgeItem = {
   secondsToForge: 36000,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 2,
@@ -236,8 +236,8 @@ const bejeweledHandle: ForgeItem = {
   secondsToForge: 30,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 3,
@@ -254,8 +254,8 @@ const drillMotor: ForgeItem = {
   secondsToForge: 108000,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 1,
@@ -284,8 +284,8 @@ const goldenPlate: ForgeItem = {
   secondsToForge: 21600,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 2,
@@ -310,8 +310,8 @@ const mithrilPlate: ForgeItem = {
   secondsToForge: 64800,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 5,
@@ -340,8 +340,8 @@ const tungstenPlate: ForgeItem = {
   secondsToForge: 10800,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 4,
@@ -362,8 +362,8 @@ const umberPlate: ForgeItem = {
   secondsToForge: 10800,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 4,
@@ -384,8 +384,8 @@ const gemstoneMixture: ForgeItem = {
   secondsToForge: 14400,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 4,
@@ -418,8 +418,8 @@ const galciteAmalgamation: ForgeItem = {
   secondsToForge: 14400,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 4,
@@ -452,8 +452,8 @@ const perfectJasperGemstone: ForgeItem = {
   secondsToForge: 72000,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 5,
@@ -470,8 +470,8 @@ const perfectRubyGemstone: ForgeItem = {
   secondsToForge: 72000,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 5,
@@ -488,8 +488,8 @@ const perfectJadeGemstone: ForgeItem = {
   secondsToForge: 72000,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 5,
@@ -506,8 +506,8 @@ const perfectSapphireGemstone: ForgeItem = {
   secondsToForge: 72000,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 5,
@@ -524,8 +524,8 @@ const perfectAmberGemstone: ForgeItem = {
   secondsToForge: 72000,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 5,
@@ -542,8 +542,8 @@ const perfectTopazGemstone: ForgeItem = {
   secondsToForge: 72000,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 5,
@@ -560,8 +560,8 @@ const perfectAmethystGemstone: ForgeItem = {
   secondsToForge: 72000,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 5,
@@ -578,8 +578,8 @@ const perfectOpalGemstone: ForgeItem = {
   secondsToForge: 72000,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 5,
@@ -596,8 +596,8 @@ const perfectOnyxGemstone: ForgeItem = {
   secondsToForge: 72000,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 5,
@@ -614,8 +614,8 @@ const perfectCitrineGemstone: ForgeItem = {
   secondsToForge: 72000,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 5,
@@ -632,8 +632,8 @@ const perfectAquamarineGemstone: ForgeItem = {
   secondsToForge: 72000,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 5,
@@ -650,8 +650,8 @@ const perfectPeridotGemstone: ForgeItem = {
   secondsToForge: 72000,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 5,
@@ -668,8 +668,8 @@ const perfectPlate: ForgeItem = {
   secondsToForge: 21600,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 1,
@@ -694,8 +694,8 @@ const mithrilPickaxe: ForgeItem = {
   secondsToForge: 2700,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 64,
@@ -720,8 +720,8 @@ const beaconII: ForgeItem = {
   secondsToForge: 72000,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 1,
@@ -742,8 +742,8 @@ const titaniumTalisman: ForgeItem = {
   secondsToForge: 50400,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 2,
@@ -760,8 +760,8 @@ const diamonite: ForgeItem = {
   secondsToForge: 21600,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 3,
@@ -778,8 +778,8 @@ const pocketIceberg: ForgeItem = {
   secondsToForge: 21600,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 5,
@@ -796,8 +796,8 @@ const powerCrystal: ForgeItem = {
   secondsToForge: 7200,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 256,
@@ -814,8 +814,8 @@ const bejeweledCollar: ForgeItem = {
   secondsToForge: 7200,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 1,
@@ -836,8 +836,8 @@ const mithrilGauntlet: ForgeItem = {
   secondsToForge: 3600,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 3,
@@ -854,8 +854,8 @@ const mithrilBelt: ForgeItem = {
   secondsToForge: 3600,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 3,
@@ -872,8 +872,8 @@ const mithrilCloak: ForgeItem = {
   secondsToForge: 3600,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 3,
@@ -890,8 +890,8 @@ const mithrilNecklace: ForgeItem = {
   secondsToForge: 3600,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 3,
@@ -908,8 +908,8 @@ const chisel: ForgeItem = {
   secondsToForge: 30,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 1,
@@ -930,8 +930,8 @@ const tungstenKey: ForgeItem = {
   secondsToForge: 1800,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 1,
@@ -952,8 +952,8 @@ const umberKey: ForgeItem = {
   secondsToForge: 1800,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 1,
@@ -974,8 +974,8 @@ const frigidHusk: ForgeItem = {
   secondsToForge: 21600,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 4,
@@ -996,8 +996,8 @@ const refinedMithrilPickaxe: ForgeItem = {
   secondsToForge: 79200,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 3,
@@ -1026,8 +1026,8 @@ const mithrilDrillSXR226: ForgeItem = {
   secondsToForge: 14400,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 1,
@@ -1052,8 +1052,8 @@ const mithrilInfusedFuelTank: ForgeItem = {
   secondsToForge: 72000,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 5,
@@ -1078,8 +1078,8 @@ const mithrilPlatedFuelDrillEngine: ForgeItem = {
   secondsToForge: 54000,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 3,
@@ -1100,8 +1100,8 @@ const beaconIII: ForgeItem = {
   secondsToForge: 108000,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 1,
@@ -1122,8 +1122,8 @@ const titaniumRing: ForgeItem = {
   secondsToForge: 72000,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 6,
@@ -1144,8 +1144,8 @@ const pureMithril: ForgeItem = {
   secondsToForge: 21600,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 2,
@@ -1162,8 +1162,8 @@ const titaniumTesseract: ForgeItem = {
   secondsToForge: 21600,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 1,
@@ -1184,8 +1184,8 @@ const dwarvenGeode: ForgeItem = {
   secondsToForge: 21600,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 128,
@@ -1206,8 +1206,8 @@ const petrifiedStarfall: ForgeItem = {
   secondsToForge: 21600,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 512,
@@ -1224,8 +1224,8 @@ const pestoGoblinOmelette: ForgeItem = {
   secondsToForge: 72000,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 99,
@@ -1246,8 +1246,8 @@ const ammonite: ForgeItem = {
   secondsToForge: 259200,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 1,
@@ -1268,8 +1268,8 @@ const rubyDrillTX15: ForgeItem = {
   secondsToForge: 3600,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 1,
@@ -1294,8 +1294,8 @@ const titaniumGauntlet: ForgeItem = {
   secondsToForge: 16200,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 16,
@@ -1320,8 +1320,8 @@ const titaniumBelt: ForgeItem = {
   secondsToForge: 16200,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 16,
@@ -1346,8 +1346,8 @@ const titaniumCloak: ForgeItem = {
   secondsToForge: 16200,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 16,
@@ -1372,8 +1372,8 @@ const titaniumNecklace: ForgeItem = {
   secondsToForge: 16200,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 16,
@@ -1398,8 +1398,8 @@ const mole: ForgeItem = {
   secondsToForge: 259200,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 1,
@@ -1420,8 +1420,8 @@ const mithrilDrillSXR326: ForgeItem = {
   secondsToForge: 30,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 1,
@@ -1446,8 +1446,8 @@ const titaniumPlatedDrillEngine: ForgeItem = {
   secondsToForge: 108000,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 10,
@@ -1476,8 +1476,8 @@ const goblinOmelette: ForgeItem = {
   secondsToForge: 64800,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 99,
@@ -1494,8 +1494,8 @@ const beaconIV: ForgeItem = {
   secondsToForge: 144000,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 1,
@@ -1520,8 +1520,8 @@ const titaniumArtifact: ForgeItem = {
   secondsToForge: 129600,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 12,
@@ -1542,8 +1542,8 @@ const scorchedTopaz: ForgeItem = {
   secondsToForge: 21600,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 128,
@@ -1564,8 +1564,8 @@ const sunnySideGoblinOmelette: ForgeItem = {
   secondsToForge: 72000,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 99,
@@ -1586,8 +1586,8 @@ const gemstoneDrillLT522: ForgeItem = {
   secondsToForge: 30,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 1,
@@ -1608,8 +1608,8 @@ const gleamingCrystal: ForgeItem = {
   secondsToForge: 21600,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 32,
@@ -1634,8 +1634,8 @@ const titaniumDrillDRX355: ForgeItem = {
   secondsToForge: 230400,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 1,
@@ -1668,8 +1668,8 @@ const titaniumDrillDRX455: ForgeItem = {
   secondsToForge: 30,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 1,
@@ -1698,8 +1698,8 @@ const titaniumDrillDRX555: ForgeItem = {
   secondsToForge: 30,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 1,
@@ -1736,8 +1736,8 @@ const titaniumInfusedFuelTank: ForgeItem = {
   secondsToForge: 90000,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 1,
@@ -1766,8 +1766,8 @@ const beaconV: ForgeItem = {
   secondsToForge: 180000,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 1,
@@ -1792,8 +1792,8 @@ const titaniumRelic: ForgeItem = {
   secondsToForge: 259200,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 1,
@@ -1814,8 +1814,8 @@ const spicyGoblinOmelette: ForgeItem = {
   secondsToForge: 72000,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 99,
@@ -1836,8 +1836,8 @@ const gemstoneChamber: ForgeItem = {
   secondsToForge: 14400,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 100,
@@ -1862,8 +1862,8 @@ const topazDrillKGR12: ForgeItem = {
   secondsToForge: 30,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 1,
@@ -1892,8 +1892,8 @@ const rubyPolishedDrillEngine: ForgeItem = {
   secondsToForge: 72000,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 1,
@@ -1918,8 +1918,8 @@ const gemstoneFuelTank: ForgeItem = {
   secondsToForge: 108000,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 1,
@@ -1944,8 +1944,8 @@ const amethystGauntlet: ForgeItem = {
   secondsToForge: 86400,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 32,
@@ -1966,8 +1966,8 @@ const jadeBelt: ForgeItem = {
   secondsToForge: 86400,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 32,
@@ -1988,8 +1988,8 @@ const sapphireCloak: ForgeItem = {
   secondsToForge: 86400,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 32,
@@ -2010,8 +2010,8 @@ const amberNecklace: ForgeItem = {
   secondsToForge: 86400,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 32,
@@ -2032,8 +2032,8 @@ const blueCheeseGoblinOmelette: ForgeItem = {
   secondsToForge: 72000,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 99,
@@ -2054,8 +2054,8 @@ const titaniumDrillDRX655: ForgeItem = {
   secondsToForge: 30,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 1,
@@ -2096,8 +2096,8 @@ const jasperDillX: ForgeItem = {
   secondsToForge: 30,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 1,
@@ -2122,8 +2122,8 @@ const sapphirePolishedDrillEngine: ForgeItem = {
   secondsToForge: 72000,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 1,
@@ -2152,8 +2152,8 @@ const amberMaterial: ForgeItem = {
   secondsToForge: 21600,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 12,
@@ -2174,8 +2174,8 @@ const helmetOfDivan: ForgeItem = {
   secondsToForge: 82800,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 5,
@@ -2200,8 +2200,8 @@ const chestplateOfDivan: ForgeItem = {
   secondsToForge: 82800,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 8,
@@ -2226,8 +2226,8 @@ const leggingsOfDivan: ForgeItem = {
   secondsToForge: 82800,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 7,
@@ -2252,8 +2252,8 @@ const bootsOfDivan: ForgeItem = {
   secondsToForge: 82800,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 4,
@@ -2278,8 +2278,8 @@ const amberPolishedDrillEngine: ForgeItem = {
   secondsToForge: 180000,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 1,
@@ -2308,8 +2308,8 @@ const perfectlyCutFuelTank: ForgeItem = {
   secondsToForge: 180000,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 1,
@@ -2334,8 +2334,8 @@ const divansDrill: ForgeItem = {
   secondsToForge: 216000,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 1,
@@ -2360,8 +2360,8 @@ const divansPowderCoating: ForgeItem = {
   secondsToForge: 129600,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 32,
@@ -2390,8 +2390,8 @@ const trex: ForgeItem = {
   secondsToForge: 604800,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 1,
@@ -2412,8 +2412,8 @@ const mammoth: ForgeItem = {
   secondsToForge: 604800,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 1,
@@ -2434,8 +2434,8 @@ const spinosaurus: ForgeItem = {
   secondsToForge: 604800,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 1,
@@ -2456,8 +2456,8 @@ const penguin: ForgeItem = {
   secondsToForge: 604800,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 1,
@@ -2478,8 +2478,8 @@ const goblin: ForgeItem = {
   secondsToForge: 604800,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 1,
@@ -2500,8 +2500,8 @@ const ankylosaurus: ForgeItem = {
   secondsToForge: 604800,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 1,
@@ -2522,8 +2522,8 @@ const dwarvenHandwarmers: ForgeItem = {
   secondsToForge: 14400,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 1,
@@ -2552,8 +2552,8 @@ const reinforcedChisel: ForgeItem = {
   secondsToForge: 43200,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 1,
@@ -2582,8 +2582,8 @@ const glacitePlatedChisel: ForgeItem = {
   secondsToForge: 64800,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 1,
@@ -2612,8 +2612,8 @@ const perfectChisel: ForgeItem = {
   secondsToForge: 64800,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 1,
@@ -2638,8 +2638,8 @@ const dwarvenMetalTalisman: ForgeItem = {
   secondsToForge: 86400,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 4,
@@ -2664,8 +2664,8 @@ const portableCampfire: ForgeItem = {
   secondsToForge: 1800,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 1,
@@ -2686,8 +2686,8 @@ const tungstenRegulator: ForgeItem = {
   secondsToForge: 21600,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 1,
@@ -2712,8 +2712,8 @@ const pendantOfDivan: ForgeItem = {
   secondsToForge: 604800,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 1,
@@ -2738,8 +2738,8 @@ const relicOfPower: ForgeItem = {
   secondsToForge: 28800,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 1,
@@ -2760,8 +2760,8 @@ const skeletonKey: ForgeItem = {
   secondsToForge: 1800,
   instaSellPrice: null,
   sellOfferPrice: null,
-  profitPerHour: null,
-  profitPerForge: null,
+  profit: null,
+  ingredientsPrice: null,
   ingredients: [
     {
       quantity: 1,

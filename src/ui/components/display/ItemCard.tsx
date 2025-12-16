@@ -40,7 +40,11 @@ interface ItemCardProps {
 const ItemCard: React.FC<ItemCardProps> = ({ forgeItem }: ItemCardProps) => {
   
   const { filters } = useFilters();
-  const itemTime = timeVisualiser(forgeItem.secondsToForge, filters.quickForge, filters.coleQuickForge);
+
+  const ingredientsPrice = readablePrice(forgeItem.ingredientsPrice);
+  const productPrice = filters.sellTo === "Sell Offer" ? readablePrice(forgeItem.sellOfferPrice) : readablePrice(forgeItem.instaSellPrice);
+  const itemTime = `${timeVisualiser(forgeItem.secondsToForge, filters.quickForge, filters.coleQuickForge)}`;
+  const profitData = readablePrice(forgeItem.profit);
 
   return (
     <Box sx={itemCardMainBoxStyle}>
@@ -50,12 +54,23 @@ const ItemCard: React.FC<ItemCardProps> = ({ forgeItem }: ItemCardProps) => {
                 {forgeItem.displayName}
             </Typography>
         </Box>
-        <ItemCardData title={`Ingredients ${filters.buyFrom}:`} data={"0"}/>
-        <ItemCardData title={`Product ${filters.sellTo}:`} data={"0"}/>
-        <ItemCardData title={"Time To Forge:"} data={`${itemTime}`}/>
-        <ItemCardData title={`${filters.sortBy}:`} data={filters.sortBy === "Profit Per Hour" ? `${forgeItem.profitPerHour}` : `${forgeItem.profitPerForge}`}/>
+        <ItemCardData title={`Ingredients ${filters.buyFrom}:`} data={ingredientsPrice}/>
+        <ItemCardData title={`Product ${filters.sellTo}:`} data={productPrice}/>
+        <ItemCardData title={"Time To Forge:"} data={itemTime}/>
+        <ItemCardData title={`${filters.sortBy}:`} data={profitData}/>
     </Box>
   );
 };
 
 export default ItemCard;
+
+const readablePrice = (price: number | null) => {
+  if (price !== null) {
+    return new Intl.NumberFormat('en-US', {
+      minimumFractionDigits: 0,
+      maximumFractionDigits: 1,
+    }).format(Math.trunc(price * 10) / 10);
+  } else {
+    return "Loading Data..."
+  }
+}

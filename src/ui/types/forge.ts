@@ -21,19 +21,8 @@ export interface ForgeItem {
   ingredients: Ingredient[];
   instaSellPrice: number | null;
   sellOfferPrice: number | null; // If whereToBuy == auction, then there is no buy order price
-  profitPerHour: number | null;
-  profitPerForge: number | null;
+  profit: number | null;
+  ingredientsPrice: number | null;
 }
 
-export interface QuickStatus {
-  productId: string;
-  sellPrice: number;
-  sellVolume: number;
-  sellMovingWeek: number;
-  sellOrders: number;
-  buyPrice: number;
-  buyVolume: number;
-  buyMovingWeek: number;
-  buyOrders: number;
-}
 

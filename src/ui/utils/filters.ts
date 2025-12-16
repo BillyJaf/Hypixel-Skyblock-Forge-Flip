@@ -19,29 +19,43 @@ export const defaultFilters: Filters = {
 }
 
 export const applyFilters = (forgeItems: ForgeItem[], filters: Filters) => {
+  let result = forgeItems;
+
   if (!filters.includeBazaarItems) {
-      forgeItems = forgeItems.filter(forgeItem => !forgeableBazaarItems.includes(forgeItem.displayName));
+      result = result.filter(forgeItem => !forgeableBazaarItems.includes(forgeItem.displayName));
   }
 
   if (!filters.includeGemstones) {
-      forgeItems = forgeItems.filter(forgeItem => !forgeableGemstones.includes(forgeItem.displayName));
+      result = result.filter(forgeItem => !forgeableGemstones.includes(forgeItem.displayName));
   }
 
   if (!filters.includeReforges) {
-      forgeItems = forgeItems.filter(forgeItem => !forgeableReforges.includes(forgeItem.displayName));
+      result = result.filter(forgeItem => !forgeableReforges.includes(forgeItem.displayName));
   }
 
     if (!filters.includeAuctionItems) {
-      forgeItems = forgeItems.filter(forgeItem => !forgeableAuctionItems.includes(forgeItem.displayName));
+      result = result.filter(forgeItem => !forgeableAuctionItems.includes(forgeItem.displayName));
   }
 
   if (!filters.includePets) {
-      forgeItems = forgeItems.filter(forgeItem => !forgeablePets.includes(forgeItem.displayName));
+      result = result.filter(forgeItem => !forgeablePets.includes(forgeItem.displayName));
   }
 
   if (!filters.includeTools) {
-      forgeItems = forgeItems.filter(forgeItem => !forgeableTools.includes(forgeItem.displayName));
+      result = result.filter(forgeItem => !forgeableTools.includes(forgeItem.displayName));
   }
 
-  return forgeItems
+  result.sort((item1, item2) => {
+    if (item1.profit === null && item2.profit === null) {
+      return 0;
+    } else if (item1.profit === null) {
+      return 1;
+    } else if (item2.profit === null) {
+      return -1;
+    } else {
+      return item2.profit - item1.profit
+    }
+  })
+
+  return result.map(item => ({ ...item }));
 }

@@ -1,10 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ItemCard from "./ItemCard";
-import { forgeableItems } from "../../utils/forgeableItems";
 import { Box } from "@mui/material";
 import { useFilters } from "../../context/FilterContext";
 import { applyFilters } from "../../utils/filters";
-import { forgeableAuctionItems, forgeableBazaarItems } from "../../utils/itemGroups";
+import { useData } from "../../context/DataContext";
+import { fillProfitAndIngredientPrices } from "../../utils/prices";
 
 export const itemCardDisplay = {
   display: "grid",
@@ -22,7 +22,9 @@ export const itemCardDisplay = {
 
 const ItemDisplay: React.FC = () => {
   const { filters } = useFilters();
-  const filteredItems = applyFilters(forgeableItems, filters);
+  const { items } = useData();
+  const itemsWithProfits = fillProfitAndIngredientPrices(items, filters)
+  const filteredItems = applyFilters(itemsWithProfits, filters);
 
   return (
     <Box sx={itemCardDisplay}>
