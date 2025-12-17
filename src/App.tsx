@@ -4,9 +4,6 @@ import MenuBar from './ui/components/menu/MenuBar';
 import { FiltersProvider } from './ui/context/FilterContext';
 import { darkTheme } from './ui/theme/Theme';
 import { DataProvider } from './ui/context/DataContext';
-import { forgeIngredients } from './ui/utils/ingredients';
-import { forgeableAuctionItems } from './ui/utils/itemGroups';
-import { forgeableItems } from './ui/utils/forgeableItems';
 
 const backgroundStyle = {
   bgcolor: 'background.default',
