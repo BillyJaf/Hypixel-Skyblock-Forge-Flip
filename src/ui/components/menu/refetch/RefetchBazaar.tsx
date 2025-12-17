@@ -1,6 +1,6 @@
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import React, { useState } from 'react';
-import { CircularProgress, IconButton, Tooltip } from '@mui/material';
+import { Box, CircularProgress, IconButton, Tooltip } from '@mui/material';
 import { fetchBazaarQuickStatus } from '../../../../api/getBazaar';
 import {
   fillBazaarIngredientPrices,
@@ -52,12 +52,31 @@ const RefetchBazaar: React.FC = () => {
         size="large"
         color="inherit"
         aria-label="settings"
-        sx={{ mr: 2 }}
+        sx={{
+          mr: 2,
+          width: 48,
+          height: 48,
+        }}
         onClick={handleBazaarRefresh}
         disabled={fetchingData}
       >
         {fetchingData ? (
-          <CircularProgress sx={{ color: 'inherit' }} />
+          <Box
+            sx={{
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+            }}
+          >
+            <CircularProgress
+              sx={{
+                color: 'inherit',
+                size: 24,
+                thickness: 4,
+                display: 'block',
+              }}
+            />
+          </Box>
         ) : (
           <ShoppingCartIcon />
         )}

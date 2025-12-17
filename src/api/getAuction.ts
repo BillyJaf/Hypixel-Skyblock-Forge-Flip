@@ -11,22 +11,10 @@ import {
 import type { AuctionResponse, Auction } from './types';
 
 export async function fetchAuctionLBINS() {
-  const response = await fetch('https://api.hypixel.net/v2/skyblock/auctions', {
-    method: 'Get',
-  });
-
-  const data = await response.json();
-  const parsedData = data as AuctionResponse;
-
   const LBINs = auctionItemLBINs;
-
-  if (!parsedData.success) {
-    return { ...LBINs };
-  }
-
-  for (let page = 0; page < parsedData.totalPages; page++) {
+  try {
     const response = await fetch(
-      `https://api.hypixel.net/v2/skyblock/auctions?page=${page}`,
+      'https://api.hypixel.net/v2/skyblock/auctions',
       {
         method: 'Get',
       }
@@ -35,33 +23,51 @@ export async function fetchAuctionLBINS() {
     const data = await response.json();
     const parsedData = data as AuctionResponse;
 
-    if (parsedData.success) {
-      parsedData.auctions.forEach((auction: Auction) => {
-        if (auction.bin) {
-          // Reforges Change Item Names:
-          let displayName = auction.item_name;
-          if (isReforged(auction.item_name)) {
-            displayName = auction.item_name.split(' ').slice(1).join(' ');
-          }
-          if (isPet(auction.item_name)) {
-            displayName = auction.item_name.split(' ')[2] + ' Pet';
-          }
+    if (!parsedData.success) {
+      return { ...LBINs };
+    }
 
-          if (
-            forgeableAuctionItems.includes(displayName) ||
-            forgeAuctionIngredients.includes(displayName)
-          ) {
-            if (LBINs[displayName] === null) {
-              LBINs[displayName] = auction.starting_bid;
-            } else if (LBINs[displayName]! > auction.starting_bid) {
-              LBINs[displayName] = auction.starting_bid;
+    for (let page = 0; page < parsedData.totalPages; page++) {
+      const response = await fetch(
+        `https://api.hypixel.net/v2/skyblock/auctions?page=${page}`,
+        {
+          method: 'Get',
+        }
+      );
+
+      const data = await response.json();
+      const parsedData = data as AuctionResponse;
+
+      if (parsedData.success) {
+        parsedData.auctions.forEach((auction: Auction) => {
+          if (auction.bin) {
+            // Reforges Change Item Names:
+            let displayName = auction.item_name;
+            if (isReforged(auction.item_name)) {
+              displayName = auction.item_name.split(' ').slice(1).join(' ');
+            }
+            if (isPet(auction.item_name)) {
+              displayName = auction.item_name.split(' ')[2] + ' Pet';
+            }
+
+            if (
+              forgeableAuctionItems.includes(displayName) ||
+              forgeAuctionIngredients.includes(displayName)
+            ) {
+              if (LBINs[displayName] === null) {
+                LBINs[displayName] = auction.starting_bid;
+              } else if (LBINs[displayName]! > auction.starting_bid) {
+                LBINs[displayName] = auction.starting_bid;
+              }
             }
           }
-        }
-      });
+        });
+      }
     }
+    return { ...LBINs };
+  } catch {
+    return { ...LBINs };
   }
-  return { ...LBINs };
 }
 
 const isReforged = (item_name: string) => {
