@@ -2841,28 +2841,28 @@ const pendantOfDivan: ForgeItem = {
   ],
 };
 
-const relicOfPower: ForgeItem = {
-  displayName: 'Relic of Power',
-  imageName: 'Relic_Of_Power',
-  apiName: 'Relic of Power',
-  whereToSell: 'auction',
-  secondsToForge: 28800,
-  instaSellPrice: null,
-  sellOfferPrice: null,
-  profit: null,
-  ingredientsPrice: null,
-  dataIsFetched: false,
-  ingredients: [
-    {
-      quantity: 1,
-      item: ARTIFACT_OF_POWER_INGREDIENT,
-    },
-    {
-      quantity: 4,
-      item: PERFECT_PLATE_INGREDIENT,
-    },
-  ],
-};
+// const relicOfPower: ForgeItem = {
+//   displayName: 'Relic of Power',
+//   imageName: 'Relic_Of_Power',
+//   apiName: 'Relic of Power',
+//   whereToSell: 'auction',
+//   secondsToForge: 28800,
+//   instaSellPrice: null,
+//   sellOfferPrice: null,
+//   profit: null,
+//   ingredientsPrice: null,
+//   dataIsFetched: false,
+//   ingredients: [
+//     {
+//       quantity: 1,
+//       item: ARTIFACT_OF_POWER_INGREDIENT,
+//     },
+//     {
+//       quantity: 4,
+//       item: PERFECT_PLATE_INGREDIENT,
+//     },
+//   ],
+// };
 
 const skeletonKey: ForgeItem = {
   displayName: 'Skeleton Key',
@@ -2999,6 +2999,5 @@ export const forgeableItems: ForgeItem[] = [
   portableCampfire,
   tungstenRegulator,
   pendantOfDivan,
-  relicOfPower,
   skeletonKey,
 ];

@@ -28,27 +28,27 @@ export const DataProvider: React.FC<{ children: React.ReactNode }> = ({
   const [items, setItems] = useState<ForgeItem[]>(forgeableItems);
 
   useEffect(() => {
-    fetchBazaarQuickStatus().then((quickStatuses) => {
-      const ingredientsWithPrices = fillBazaarIngredientPrices(
-        ingredients,
-        quickStatuses
-      );
-      setIngredients(ingredientsWithPrices.map((item) => ({ ...item })));
+    // fetchBazaarQuickStatus().then((quickStatuses) => {
+    //   const ingredientsWithPrices = fillBazaarIngredientPrices(
+    //     ingredients,
+    //     quickStatuses
+    //   );
+    //   setIngredients(ingredientsWithPrices.map((item) => ({ ...item })));
 
-      const itemsWithPrices = fillBazaarItemPrices(items, quickStatuses);
-      setItems(itemsWithPrices.map((item) => ({ ...item })));
-    });
+    //   const itemsWithPrices = fillBazaarItemPrices(items, quickStatuses);
+    //   setItems(itemsWithPrices.map((item) => ({ ...item })));
+    // });
 
-    fetchAuctionLBINS().then((LBINs) => {
-      const ingredientsWithPrices = fillAuctionIngredientPrices(
-        ingredients,
-        LBINs
-      );
-      setIngredients(ingredientsWithPrices.map((item) => ({ ...item })));
+    // fetchAuctionLBINS().then((LBINs) => {
+    //   const ingredientsWithPrices = fillAuctionIngredientPrices(
+    //     ingredients,
+    //     LBINs
+    //   );
+    //   setIngredients(ingredientsWithPrices.map((item) => ({ ...item })));
 
-      const itemsWithPrices = fillAuctionItemPrices(items, LBINs);
-      setItems(itemsWithPrices.map((item) => ({ ...item })));
-    });
+    //   const itemsWithPrices = fillAuctionItemPrices(items, LBINs);
+    //   setItems(itemsWithPrices.map((item) => ({ ...item })));
+    // });
   }, []);
 
   return (
