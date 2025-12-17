@@ -1,12 +1,18 @@
-import type { Filters } from "../context/FilterContext";
-import type { ForgeItem } from "../types/forge";
-import { forgeableAuctionItems, forgeableBazaarItems, forgeableGemstones, forgeablePets, forgeableReforges, forgeableTools } from "./itemGroups";
-
+import type { Filters } from '../context/FilterContext';
+import type { ForgeItem } from '../types/forge';
+import {
+  forgeableAuctionItems,
+  forgeableBazaarItems,
+  forgeableGemstones,
+  forgeablePets,
+  forgeableReforges,
+  forgeableTools,
+} from './itemGroups';
 
 export const defaultFilters: Filters = {
-  sortBy: "Profit Per Hour",
-  buyFrom: "Insta Buy",
-  sellTo: "Insta Sell",
+  sortBy: 'Profit Per Hour',
+  buyFrom: 'Insta Buy',
+  sellTo: 'Insta Sell',
   searchItem: null,
   quickForge: false,
   coleQuickForge: false,
@@ -16,38 +22,52 @@ export const defaultFilters: Filters = {
   includeAuctionItems: true,
   includePets: true,
   includeTools: true,
-}
+};
 
 export const applyFilters = (forgeItems: ForgeItem[], filters: Filters) => {
   if (filters.searchItem !== null) {
-    const searchedItem = forgeItems.filter((item) => item.displayName === filters.searchItem)
-    return searchedItem
+    const searchedItem = forgeItems.filter(
+      (item) => item.displayName === filters.searchItem
+    );
+    return searchedItem;
   }
 
   let result = forgeItems;
 
   if (!filters.includeBazaarItems) {
-      result = result.filter(forgeItem => !forgeableBazaarItems.includes(forgeItem.displayName));
+    result = result.filter(
+      (forgeItem) => !forgeableBazaarItems.includes(forgeItem.displayName)
+    );
   }
 
   if (!filters.includeGemstones) {
-      result = result.filter(forgeItem => !forgeableGemstones.includes(forgeItem.displayName));
+    result = result.filter(
+      (forgeItem) => !forgeableGemstones.includes(forgeItem.displayName)
+    );
   }
 
   if (!filters.includeReforges) {
-      result = result.filter(forgeItem => !forgeableReforges.includes(forgeItem.displayName));
+    result = result.filter(
+      (forgeItem) => !forgeableReforges.includes(forgeItem.displayName)
+    );
   }
 
-    if (!filters.includeAuctionItems) {
-      result = result.filter(forgeItem => !forgeableAuctionItems.includes(forgeItem.displayName));
+  if (!filters.includeAuctionItems) {
+    result = result.filter(
+      (forgeItem) => !forgeableAuctionItems.includes(forgeItem.displayName)
+    );
   }
 
   if (!filters.includePets) {
-      result = result.filter(forgeItem => !forgeablePets.includes(forgeItem.displayName));
+    result = result.filter(
+      (forgeItem) => !forgeablePets.includes(forgeItem.displayName)
+    );
   }
 
   if (!filters.includeTools) {
-      result = result.filter(forgeItem => !forgeableTools.includes(forgeItem.displayName));
+    result = result.filter(
+      (forgeItem) => !forgeableTools.includes(forgeItem.displayName)
+    );
   }
 
   result.sort((item1, item2) => {
@@ -58,9 +78,9 @@ export const applyFilters = (forgeItems: ForgeItem[], filters: Filters) => {
     } else if (item2.profit === null) {
       return -1;
     } else {
-      return item2.profit - item1.profit
+      return item2.profit - item1.profit;
     }
-  })
+  });
 
-  return result.map(item => ({ ...item })) as ForgeItem[];
-}
+  return result.map((item) => ({ ...item })) as ForgeItem[];
+};

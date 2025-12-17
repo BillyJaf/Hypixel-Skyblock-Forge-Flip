@@ -1,8 +1,11 @@
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
-import React, { useState } from "react";
-import { CircularProgress, IconButton, Tooltip } from "@mui/material";
+import React, { useState } from 'react';
+import { CircularProgress, IconButton, Tooltip } from '@mui/material';
 import { fetchBazaarQuickStatus } from '../../../../api/getBazaar';
-import { fillBazaarIngredientPrices, fillBazaarItemPrices } from '../../../utils/prices';
+import {
+  fillBazaarIngredientPrices,
+  fillBazaarItemPrices,
+} from '../../../utils/prices';
 import { useData } from '../../../context/DataContext';
 
 const RefetchBazaar: React.FC = () => {
@@ -12,38 +15,39 @@ const RefetchBazaar: React.FC = () => {
 
   const handleBazaarRefresh = () => {
     setFetchingData(true);
-    unfetchBazaarData()
+    unfetchBazaarData();
     fetchBazaarQuickStatus().then((quickStatuses) => {
-      const ingredientsWithPrices = fillBazaarIngredientPrices(ingredients, quickStatuses)
-      setIngredients(ingredientsWithPrices.map(item => ({ ...item })))
+      const ingredientsWithPrices = fillBazaarIngredientPrices(
+        ingredients,
+        quickStatuses
+      );
+      setIngredients(ingredientsWithPrices.map((item) => ({ ...item })));
 
-      const itemsWithPrices = fillBazaarItemPrices(items, quickStatuses)
-      setItems(itemsWithPrices.map(item => ({ ...item })))
+      const itemsWithPrices = fillBazaarItemPrices(items, quickStatuses);
+      setItems(itemsWithPrices.map((item) => ({ ...item })));
 
       setFetchingData(false);
-    })
-  }
+    });
+  };
 
   const unfetchBazaarData = () => {
     items.forEach((item) => {
-        if (item.whereToSell === "bazaar") {
-          item.dataIsFetched = false;
-        }
+      if (item.whereToSell === 'bazaar') {
+        item.dataIsFetched = false;
       }
-    )
-    setItems([...items])
+    });
+    setItems([...items]);
 
     ingredients.forEach((ingredient) => {
-        if (ingredient.whereToBuy === "bazaar") {
-          ingredient.dataIsFetched = false;
-        }
+      if (ingredient.whereToBuy === 'bazaar') {
+        ingredient.dataIsFetched = false;
       }
-    )
-    setIngredients([...ingredients])
-  }
+    });
+    setIngredients([...ingredients]);
+  };
 
   return (
-    <Tooltip title={"Refetch Bazaar Items"}>
+    <Tooltip title={'Refetch Bazaar Items'}>
       <IconButton
         size="large"
         color="inherit"
@@ -52,7 +56,11 @@ const RefetchBazaar: React.FC = () => {
         onClick={handleBazaarRefresh}
         disabled={fetchingData}
       >
-        {fetchingData ? <CircularProgress sx={{color: "inherit"}} /> : <ShoppingCartIcon />}
+        {fetchingData ? (
+          <CircularProgress sx={{ color: 'inherit' }} />
+        ) : (
+          <ShoppingCartIcon />
+        )}
       </IconButton>
     </Tooltip>
   );

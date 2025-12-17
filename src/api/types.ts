@@ -1,12 +1,12 @@
 export interface BazaarResponse {
-    success: boolean;
-    lastUpdated: number;
-    products: {[product_id: string]: Product};
+  success: boolean;
+  lastUpdated: number;
+  products: { [product_id: string]: Product };
 }
 
 export interface Product {
-    product_id: string
-    quick_status: QuickStatus
+  product_id: string;
+  quick_status: QuickStatus;
 }
 
 export interface QuickStatus {
@@ -43,16 +43,16 @@ export interface Auction {
 }
 
 interface ItemBytes {
-    type: number;
-    data: number[];
+  type: number;
+  data: number[];
 }
 
 interface Bid {
-    auction_id: string;
-    bidder: string;
-    profile_id: string;
-    amount: number;
-    timestamp: number;
+  auction_id: string;
+  bidder: string;
+  profile_id: string;
+  amount: number;
+  timestamp: number;
 }
 
 export interface AuctionResponse {

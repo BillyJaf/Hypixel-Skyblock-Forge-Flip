@@ -1,4 +1,4 @@
-export type Market = "bazaar" | "auction" | "purse";
+export type Market = 'bazaar' | 'auction' | 'purse';
 
 export interface IngredientItem {
   apiName: string;
@@ -26,5 +26,3 @@ export interface ForgeItem {
   ingredientsPrice: number | null;
   dataIsFetched: boolean;
 }
-
-

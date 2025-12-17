@@ -1,4 +1,4 @@
-import type { ForgeItem } from "../types/forge";
+import type { ForgeItem } from '../types/forge';
 import {
   ARTIFACT_OF_POWER_INGREDIENT,
   BEACON_I_INGREDIENT,
@@ -118,13 +118,13 @@ import {
   WEBBED_FOSSIL_INGREDIENT,
   WORM_MEMBRANE_INGREDIENT,
   YELLOW_GOBLIN_EGG_INGREDIENT,
-} from "./ingredients";
+} from './ingredients';
 
 const refinedDiamond: ForgeItem = {
-  displayName: "Refined Diamond",
-  imageName: "Refined_Diamond",
-  apiName: "REFINED_DIAMOND",
-  whereToSell: "bazaar",
+  displayName: 'Refined Diamond',
+  imageName: 'Refined_Diamond',
+  apiName: 'REFINED_DIAMOND',
+  whereToSell: 'bazaar',
   secondsToForge: 28800,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -140,10 +140,10 @@ const refinedDiamond: ForgeItem = {
 };
 
 const refinedMithril: ForgeItem = {
-  displayName: "Refined Mithril",
-  imageName: "Refined_Mithril",
-  apiName: "REFINED_MITHRIL",
-  whereToSell: "bazaar",
+  displayName: 'Refined Mithril',
+  imageName: 'Refined_Mithril',
+  apiName: 'REFINED_MITHRIL',
+  whereToSell: 'bazaar',
   secondsToForge: 21600,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -159,10 +159,10 @@ const refinedMithril: ForgeItem = {
 };
 
 const refinedTitanium: ForgeItem = {
-  displayName: "Refined Titanium",
-  imageName: "Refined_Titanium",
-  apiName: "REFINED_TITANIUM",
-  whereToSell: "bazaar",
+  displayName: 'Refined Titanium',
+  imageName: 'Refined_Titanium',
+  apiName: 'REFINED_TITANIUM',
+  whereToSell: 'bazaar',
   secondsToForge: 43200,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -178,10 +178,10 @@ const refinedTitanium: ForgeItem = {
 };
 
 const refinedTungsten: ForgeItem = {
-  displayName: "Refined Tungsten",
-  imageName: "Refined_Tungsten",
-  apiName: "REFINED_TUNGSTEN",
-  whereToSell: "bazaar",
+  displayName: 'Refined Tungsten',
+  imageName: 'Refined_Tungsten',
+  apiName: 'REFINED_TUNGSTEN',
+  whereToSell: 'bazaar',
   secondsToForge: 3600,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -197,10 +197,10 @@ const refinedTungsten: ForgeItem = {
 };
 
 const refinedUmber: ForgeItem = {
-  displayName: "Refined Umber",
-  imageName: "Refined_Umber",
-  apiName: "REFINED_UMBER",
-  whereToSell: "bazaar",
+  displayName: 'Refined Umber',
+  imageName: 'Refined_Umber',
+  apiName: 'REFINED_UMBER',
+  whereToSell: 'bazaar',
   secondsToForge: 3600,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -216,10 +216,10 @@ const refinedUmber: ForgeItem = {
 };
 
 const fuelCanister: ForgeItem = {
-  displayName: "Fuel Canister",
-  imageName: "Fuel_Canister",
-  apiName: "FUEL_TANK",
-  whereToSell: "bazaar",
+  displayName: 'Fuel Canister',
+  imageName: 'Fuel_Canister',
+  apiName: 'FUEL_TANK',
+  whereToSell: 'bazaar',
   secondsToForge: 36000,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -235,10 +235,10 @@ const fuelCanister: ForgeItem = {
 };
 
 const bejeweledHandle: ForgeItem = {
-  displayName: "Bejeweled Handle",
-  imageName: "Enchanted_Stick",
-  apiName: "BEJEWELED_HANDLE",
-  whereToSell: "bazaar",
+  displayName: 'Bejeweled Handle',
+  imageName: 'Enchanted_Stick',
+  apiName: 'BEJEWELED_HANDLE',
+  whereToSell: 'bazaar',
   secondsToForge: 30,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -254,10 +254,10 @@ const bejeweledHandle: ForgeItem = {
 };
 
 const drillMotor: ForgeItem = {
-  displayName: "Drill Motor",
-  imageName: "Drill_Motor",
-  apiName: "DRILL_ENGINE",
-  whereToSell: "bazaar",
+  displayName: 'Drill Motor',
+  imageName: 'Drill_Motor',
+  apiName: 'DRILL_ENGINE',
+  whereToSell: 'bazaar',
   secondsToForge: 108000,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -285,10 +285,10 @@ const drillMotor: ForgeItem = {
 };
 
 const goldenPlate: ForgeItem = {
-  displayName: "Golden Plate",
-  imageName: "Golden_Plate",
-  apiName: "GOLDEN_PLATE",
-  whereToSell: "bazaar",
+  displayName: 'Golden Plate',
+  imageName: 'Golden_Plate',
+  apiName: 'GOLDEN_PLATE',
+  whereToSell: 'bazaar',
   secondsToForge: 21600,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -312,10 +312,10 @@ const goldenPlate: ForgeItem = {
 };
 
 const mithrilPlate: ForgeItem = {
-  displayName: "Mithril Plate",
-  imageName: "Mithril_Plate",
-  apiName: "MITHRIL_PLATE",
-  whereToSell: "bazaar",
+  displayName: 'Mithril Plate',
+  imageName: 'Mithril_Plate',
+  apiName: 'MITHRIL_PLATE',
+  whereToSell: 'bazaar',
   secondsToForge: 64800,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -343,10 +343,10 @@ const mithrilPlate: ForgeItem = {
 };
 
 const tungstenPlate: ForgeItem = {
-  displayName: "Tungsten Plate",
-  imageName: "Tungsten_Plate",
-  apiName: "TUNGSTEN_PLATE",
-  whereToSell: "bazaar",
+  displayName: 'Tungsten Plate',
+  imageName: 'Tungsten_Plate',
+  apiName: 'TUNGSTEN_PLATE',
+  whereToSell: 'bazaar',
   secondsToForge: 10800,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -366,10 +366,10 @@ const tungstenPlate: ForgeItem = {
 };
 
 const umberPlate: ForgeItem = {
-  displayName: "Umber Plate",
-  imageName: "Umber_Plate",
-  apiName: "UMBER_PLATE",
-  whereToSell: "bazaar",
+  displayName: 'Umber Plate',
+  imageName: 'Umber_Plate',
+  apiName: 'UMBER_PLATE',
+  whereToSell: 'bazaar',
   secondsToForge: 10800,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -389,10 +389,10 @@ const umberPlate: ForgeItem = {
 };
 
 const gemstoneMixture: ForgeItem = {
-  displayName: "Gemstone Mixture",
-  imageName: "Gemstone_Mixture",
-  apiName: "GEMSTONE_MIXTURE",
-  whereToSell: "bazaar",
+  displayName: 'Gemstone Mixture',
+  imageName: 'Gemstone_Mixture',
+  apiName: 'GEMSTONE_MIXTURE',
+  whereToSell: 'bazaar',
   secondsToForge: 14400,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -424,10 +424,10 @@ const gemstoneMixture: ForgeItem = {
 };
 
 const galciteAmalgamation: ForgeItem = {
-  displayName: "Glacite Amalgamation",
-  imageName: "Glacite_Amalgamation",
-  apiName: "GLACITE_AMALGAMATION",
-  whereToSell: "bazaar",
+  displayName: 'Glacite Amalgamation',
+  imageName: 'Glacite_Amalgamation',
+  apiName: 'GLACITE_AMALGAMATION',
+  whereToSell: 'bazaar',
   secondsToForge: 14400,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -459,10 +459,10 @@ const galciteAmalgamation: ForgeItem = {
 };
 
 const perfectJasperGemstone: ForgeItem = {
-  displayName: "Perfect Jasper Gemstone",
-  imageName: "Perfect_Jasper_Gemstone",
-  apiName: "PERFECT_JASPER_GEM",
-  whereToSell: "bazaar",
+  displayName: 'Perfect Jasper Gemstone',
+  imageName: 'Perfect_Jasper_Gemstone',
+  apiName: 'PERFECT_JASPER_GEM',
+  whereToSell: 'bazaar',
   secondsToForge: 72000,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -478,10 +478,10 @@ const perfectJasperGemstone: ForgeItem = {
 };
 
 const perfectRubyGemstone: ForgeItem = {
-  displayName: "Perfect Ruby Gemstone",
-  imageName: "Perfect_Ruby_Gemstone",
-  apiName: "PERFECT_RUBY_GEM",
-  whereToSell: "bazaar",
+  displayName: 'Perfect Ruby Gemstone',
+  imageName: 'Perfect_Ruby_Gemstone',
+  apiName: 'PERFECT_RUBY_GEM',
+  whereToSell: 'bazaar',
   secondsToForge: 72000,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -497,10 +497,10 @@ const perfectRubyGemstone: ForgeItem = {
 };
 
 const perfectJadeGemstone: ForgeItem = {
-  displayName: "Perfect Jade Gemstone",
-  imageName: "Perfect_Jade_Gemstone",
-  apiName: "PERFECT_JADE_GEM",
-  whereToSell: "bazaar",
+  displayName: 'Perfect Jade Gemstone',
+  imageName: 'Perfect_Jade_Gemstone',
+  apiName: 'PERFECT_JADE_GEM',
+  whereToSell: 'bazaar',
   secondsToForge: 72000,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -516,10 +516,10 @@ const perfectJadeGemstone: ForgeItem = {
 };
 
 const perfectSapphireGemstone: ForgeItem = {
-  displayName: "Perfect Sapphire Gemstone",
-  imageName: "Perfect_Sapphire_Gemstone",
-  apiName: "PERFECT_SAPPHIRE_GEM",
-  whereToSell: "bazaar",
+  displayName: 'Perfect Sapphire Gemstone',
+  imageName: 'Perfect_Sapphire_Gemstone',
+  apiName: 'PERFECT_SAPPHIRE_GEM',
+  whereToSell: 'bazaar',
   secondsToForge: 72000,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -535,10 +535,10 @@ const perfectSapphireGemstone: ForgeItem = {
 };
 
 const perfectAmberGemstone: ForgeItem = {
-  displayName: "Perfect Amber Gemstone",
-  imageName: "Perfect_Amber_Gemstone",
-  apiName: "PERFECT_AMBER_GEM",
-  whereToSell: "bazaar",
+  displayName: 'Perfect Amber Gemstone',
+  imageName: 'Perfect_Amber_Gemstone',
+  apiName: 'PERFECT_AMBER_GEM',
+  whereToSell: 'bazaar',
   secondsToForge: 72000,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -554,10 +554,10 @@ const perfectAmberGemstone: ForgeItem = {
 };
 
 const perfectTopazGemstone: ForgeItem = {
-  displayName: "Perfect Topaz Gemstone",
-  imageName: "Perfect_Topaz_Gemstone",
-  apiName: "PERFECT_TOPAZ_GEM",
-  whereToSell: "bazaar",
+  displayName: 'Perfect Topaz Gemstone',
+  imageName: 'Perfect_Topaz_Gemstone',
+  apiName: 'PERFECT_TOPAZ_GEM',
+  whereToSell: 'bazaar',
   secondsToForge: 72000,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -573,10 +573,10 @@ const perfectTopazGemstone: ForgeItem = {
 };
 
 const perfectAmethystGemstone: ForgeItem = {
-  displayName: "Perfect Amethyst Gemstone",
-  imageName: "Perfect_Amethyst_Gemstone",
-  apiName: "PERFECT_AMETHYST_GEM",
-  whereToSell: "bazaar",
+  displayName: 'Perfect Amethyst Gemstone',
+  imageName: 'Perfect_Amethyst_Gemstone',
+  apiName: 'PERFECT_AMETHYST_GEM',
+  whereToSell: 'bazaar',
   secondsToForge: 72000,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -592,10 +592,10 @@ const perfectAmethystGemstone: ForgeItem = {
 };
 
 const perfectOpalGemstone: ForgeItem = {
-  displayName: "Perfect Opal Gemstone",
-  imageName: "Perfect_Opal_Gemstone",
-  apiName: "PERFECT_OPAL_GEM",
-  whereToSell: "bazaar",
+  displayName: 'Perfect Opal Gemstone',
+  imageName: 'Perfect_Opal_Gemstone',
+  apiName: 'PERFECT_OPAL_GEM',
+  whereToSell: 'bazaar',
   secondsToForge: 72000,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -611,10 +611,10 @@ const perfectOpalGemstone: ForgeItem = {
 };
 
 const perfectOnyxGemstone: ForgeItem = {
-  displayName: "Perfect Onyx Gemstone",
-  imageName: "Perfect_Onyx_Gemstone",
-  apiName: "PERFECT_ONYX_GEM",
-  whereToSell: "bazaar",
+  displayName: 'Perfect Onyx Gemstone',
+  imageName: 'Perfect_Onyx_Gemstone',
+  apiName: 'PERFECT_ONYX_GEM',
+  whereToSell: 'bazaar',
   secondsToForge: 72000,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -630,10 +630,10 @@ const perfectOnyxGemstone: ForgeItem = {
 };
 
 const perfectCitrineGemstone: ForgeItem = {
-  displayName: "Perfect Citrine Gemstone",
-  imageName: "Perfect_Citrine_Gemstone",
-  apiName: "PERFECT_CITRINE_GEM",
-  whereToSell: "bazaar",
+  displayName: 'Perfect Citrine Gemstone',
+  imageName: 'Perfect_Citrine_Gemstone',
+  apiName: 'PERFECT_CITRINE_GEM',
+  whereToSell: 'bazaar',
   secondsToForge: 72000,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -649,10 +649,10 @@ const perfectCitrineGemstone: ForgeItem = {
 };
 
 const perfectAquamarineGemstone: ForgeItem = {
-  displayName: "Perfect Aquamarine Gemstone",
-  imageName: "Perfect_Aquamarine_Gemstone",
-  apiName: "PERFECT_AQUAMARINE_GEM",
-  whereToSell: "bazaar",
+  displayName: 'Perfect Aquamarine Gemstone',
+  imageName: 'Perfect_Aquamarine_Gemstone',
+  apiName: 'PERFECT_AQUAMARINE_GEM',
+  whereToSell: 'bazaar',
   secondsToForge: 72000,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -668,10 +668,10 @@ const perfectAquamarineGemstone: ForgeItem = {
 };
 
 const perfectPeridotGemstone: ForgeItem = {
-  displayName: "Perfect Peridot Gemstone",
-  imageName: "Perfect_Peridot_Gemstone",
-  apiName: "PERFECT_PERIDOT_GEM",
-  whereToSell: "bazaar",
+  displayName: 'Perfect Peridot Gemstone',
+  imageName: 'Perfect_Peridot_Gemstone',
+  apiName: 'PERFECT_PERIDOT_GEM',
+  whereToSell: 'bazaar',
   secondsToForge: 72000,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -687,10 +687,10 @@ const perfectPeridotGemstone: ForgeItem = {
 };
 
 const perfectPlate: ForgeItem = {
-  displayName: "Perfect Plate",
-  imageName: "Perfect_Plate",
-  apiName: "PERFECT_PLATE",
-  whereToSell: "bazaar",
+  displayName: 'Perfect Plate',
+  imageName: 'Perfect_Plate',
+  apiName: 'PERFECT_PLATE',
+  whereToSell: 'bazaar',
   secondsToForge: 21600,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -714,10 +714,10 @@ const perfectPlate: ForgeItem = {
 };
 
 const mithrilPickaxe: ForgeItem = {
-  displayName: "Mithril Pickaxe",
-  imageName: "Enchanted_Diamond_Pickaxe",
-  apiName: "Mithril Pickaxe",
-  whereToSell: "auction",
+  displayName: 'Mithril Pickaxe',
+  imageName: 'Enchanted_Diamond_Pickaxe',
+  apiName: 'Mithril Pickaxe',
+  whereToSell: 'auction',
   secondsToForge: 2700,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -741,10 +741,10 @@ const mithrilPickaxe: ForgeItem = {
 };
 
 const beaconII: ForgeItem = {
-  displayName: "Beacon II",
-  imageName: "Enchanted_Beacon",
-  apiName: "Beacon II",
-  whereToSell: "auction",
+  displayName: 'Beacon II',
+  imageName: 'Enchanted_Beacon',
+  apiName: 'Beacon II',
+  whereToSell: 'auction',
   secondsToForge: 72000,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -764,10 +764,10 @@ const beaconII: ForgeItem = {
 };
 
 const titaniumTalisman: ForgeItem = {
-  displayName: "Titanium Talisman",
-  imageName: "Titanium_Talisman",
-  apiName: "Titanium Talisman",
-  whereToSell: "auction",
+  displayName: 'Titanium Talisman',
+  imageName: 'Titanium_Talisman',
+  apiName: 'Titanium Talisman',
+  whereToSell: 'auction',
   secondsToForge: 50400,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -783,10 +783,10 @@ const titaniumTalisman: ForgeItem = {
 };
 
 const diamonite: ForgeItem = {
-  displayName: "Diamonite",
-  imageName: "Diamonite",
-  apiName: "DIAMONITE",
-  whereToSell: "bazaar",
+  displayName: 'Diamonite',
+  imageName: 'Diamonite',
+  apiName: 'DIAMONITE',
+  whereToSell: 'bazaar',
   secondsToForge: 21600,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -802,10 +802,10 @@ const diamonite: ForgeItem = {
 };
 
 const pocketIceberg: ForgeItem = {
-  displayName: "Pocket Iceberg",
-  imageName: "Pocket_Iceberg",
-  apiName: "POCKET_ICEBERG",
-  whereToSell: "bazaar",
+  displayName: 'Pocket Iceberg',
+  imageName: 'Pocket_Iceberg',
+  apiName: 'POCKET_ICEBERG',
+  whereToSell: 'bazaar',
   secondsToForge: 21600,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -821,10 +821,10 @@ const pocketIceberg: ForgeItem = {
 };
 
 const powerCrystal: ForgeItem = {
-  displayName: "Power Crystal",
-  imageName: "Enchanted_Nether_Star",
-  apiName: "POWER_CRYSTAL",
-  whereToSell: "bazaar",
+  displayName: 'Power Crystal',
+  imageName: 'Enchanted_Nether_Star',
+  apiName: 'POWER_CRYSTAL',
+  whereToSell: 'bazaar',
   secondsToForge: 7200,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -840,10 +840,10 @@ const powerCrystal: ForgeItem = {
 };
 
 const bejeweledCollar: ForgeItem = {
-  displayName: "Bejeweled Collar",
-  imageName: "Bejeweled_Collar",
-  apiName: "Bejeweled Collar",
-  whereToSell: "auction",
+  displayName: 'Bejeweled Collar',
+  imageName: 'Bejeweled_Collar',
+  apiName: 'Bejeweled Collar',
+  whereToSell: 'auction',
   secondsToForge: 7200,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -863,10 +863,10 @@ const bejeweledCollar: ForgeItem = {
 };
 
 const mithrilGauntlet: ForgeItem = {
-  displayName: "Mithril Gauntlet",
-  imageName: "Mithril_Gauntlet",
-  apiName: "Mithril Gauntlet",
-  whereToSell: "auction",
+  displayName: 'Mithril Gauntlet',
+  imageName: 'Mithril_Gauntlet',
+  apiName: 'Mithril Gauntlet',
+  whereToSell: 'auction',
   secondsToForge: 3600,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -882,10 +882,10 @@ const mithrilGauntlet: ForgeItem = {
 };
 
 const mithrilBelt: ForgeItem = {
-  displayName: "Mithril Belt",
-  imageName: "Mithril_Belt",
-  apiName: "Mithril Belt",
-  whereToSell: "auction",
+  displayName: 'Mithril Belt',
+  imageName: 'Mithril_Belt',
+  apiName: 'Mithril Belt',
+  whereToSell: 'auction',
   secondsToForge: 3600,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -901,10 +901,10 @@ const mithrilBelt: ForgeItem = {
 };
 
 const mithrilCloak: ForgeItem = {
-  displayName: "Mithril Cloak",
-  imageName: "Mithril_Cloak",
-  apiName: "Mithril Cloak",
-  whereToSell: "auction",
+  displayName: 'Mithril Cloak',
+  imageName: 'Mithril_Cloak',
+  apiName: 'Mithril Cloak',
+  whereToSell: 'auction',
   secondsToForge: 3600,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -920,10 +920,10 @@ const mithrilCloak: ForgeItem = {
 };
 
 const mithrilNecklace: ForgeItem = {
-  displayName: "Mithril Necklace",
-  imageName: "Mithril_Necklace",
-  apiName: "Mithril Necklace",
-  whereToSell: "auction",
+  displayName: 'Mithril Necklace',
+  imageName: 'Mithril_Necklace',
+  apiName: 'Mithril Necklace',
+  whereToSell: 'auction',
   secondsToForge: 3600,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -939,10 +939,10 @@ const mithrilNecklace: ForgeItem = {
 };
 
 const chisel: ForgeItem = {
-  displayName: "Chisel",
-  imageName: "Armor_Stand",
-  apiName: "Chisel",
-  whereToSell: "auction",
+  displayName: 'Chisel',
+  imageName: 'Armor_Stand',
+  apiName: 'Chisel',
+  whereToSell: 'auction',
   secondsToForge: 30,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -962,10 +962,10 @@ const chisel: ForgeItem = {
 };
 
 const tungstenKey: ForgeItem = {
-  displayName: "Tungsten Key",
-  imageName: "Enchanted_Lever",
-  apiName: "TUNGSTEN_KEY",
-  whereToSell: "bazaar",
+  displayName: 'Tungsten Key',
+  imageName: 'Enchanted_Lever',
+  apiName: 'TUNGSTEN_KEY',
+  whereToSell: 'bazaar',
   secondsToForge: 1800,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -985,10 +985,10 @@ const tungstenKey: ForgeItem = {
 };
 
 const umberKey: ForgeItem = {
-  displayName: "Umber Key",
-  imageName: "Enchanted_Dead_Bush",
-  apiName: "UMBER_KEY",
-  whereToSell: "bazaar",
+  displayName: 'Umber Key',
+  imageName: 'Enchanted_Dead_Bush',
+  apiName: 'UMBER_KEY',
+  whereToSell: 'bazaar',
   secondsToForge: 1800,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -1008,10 +1008,10 @@ const umberKey: ForgeItem = {
 };
 
 const frigidHusk: ForgeItem = {
-  displayName: "Frigid Husk",
-  imageName: "Frigid_Husk",
-  apiName: "FRIGID_HUSK",
-  whereToSell: "bazaar",
+  displayName: 'Frigid Husk',
+  imageName: 'Frigid_Husk',
+  apiName: 'FRIGID_HUSK',
+  whereToSell: 'bazaar',
   secondsToForge: 21600,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -1031,10 +1031,10 @@ const frigidHusk: ForgeItem = {
 };
 
 const refinedMithrilPickaxe: ForgeItem = {
-  displayName: "Refined Mithril Pickaxe",
-  imageName: "Enchanted_Diamond_Pickaxe",
-  apiName: "Refined Mithril Pickaxe",
-  whereToSell: "auction",
+  displayName: 'Refined Mithril Pickaxe',
+  imageName: 'Enchanted_Diamond_Pickaxe',
+  apiName: 'Refined Mithril Pickaxe',
+  whereToSell: 'auction',
   secondsToForge: 79200,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -1062,10 +1062,10 @@ const refinedMithrilPickaxe: ForgeItem = {
 };
 
 const mithrilDrillSXR226: ForgeItem = {
-  displayName: "Mithril Drill SX-R226",
-  imageName: "Enchanted_Prismarine_Shard",
-  apiName: "Mithril Drill SX-R226",
-  whereToSell: "auction",
+  displayName: 'Mithril Drill SX-R226',
+  imageName: 'Enchanted_Prismarine_Shard',
+  apiName: 'Mithril Drill SX-R226',
+  whereToSell: 'auction',
   secondsToForge: 14400,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -1089,10 +1089,10 @@ const mithrilDrillSXR226: ForgeItem = {
 };
 
 const mithrilInfusedFuelTank: ForgeItem = {
-  displayName: "Mithril-Infused Fuel Tank",
-  imageName: "Mithril-Infused_Fuel_Tank",
-  apiName: "Mithril-Infused Fuel Tank",
-  whereToSell: "auction",
+  displayName: 'Mithril-Infused Fuel Tank',
+  imageName: 'Mithril-Infused_Fuel_Tank',
+  apiName: 'Mithril-Infused Fuel Tank',
+  whereToSell: 'auction',
   secondsToForge: 72000,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -1116,10 +1116,10 @@ const mithrilInfusedFuelTank: ForgeItem = {
 };
 
 const mithrilPlatedFuelDrillEngine: ForgeItem = {
-  displayName: "Mithril-Plated Drill Engine",
-  imageName: "Mithril-Plated_Drill_Engine",
-  apiName: "Mithril-Plated Drill Engine",
-  whereToSell: "auction",
+  displayName: 'Mithril-Plated Drill Engine',
+  imageName: 'Mithril-Plated_Drill_Engine',
+  apiName: 'Mithril-Plated Drill Engine',
+  whereToSell: 'auction',
   secondsToForge: 54000,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -1139,10 +1139,10 @@ const mithrilPlatedFuelDrillEngine: ForgeItem = {
 };
 
 const beaconIII: ForgeItem = {
-  displayName: "Beacon III",
-  imageName: "Enchanted_Beacon",
-  apiName: "Beacon III",
-  whereToSell: "auction",
+  displayName: 'Beacon III',
+  imageName: 'Enchanted_Beacon',
+  apiName: 'Beacon III',
+  whereToSell: 'auction',
   secondsToForge: 108000,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -1162,10 +1162,10 @@ const beaconIII: ForgeItem = {
 };
 
 const titaniumRing: ForgeItem = {
-  displayName: "Titanium Ring",
-  imageName: "Titanium_Ring",
-  apiName: "Titanium Ring",
-  whereToSell: "auction",
+  displayName: 'Titanium Ring',
+  imageName: 'Titanium_Ring',
+  apiName: 'Titanium Ring',
+  whereToSell: 'auction',
   secondsToForge: 72000,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -1185,10 +1185,10 @@ const titaniumRing: ForgeItem = {
 };
 
 const pureMithril: ForgeItem = {
-  displayName: "Pure Mithril",
-  imageName: "Pure_Mithril",
-  apiName: "PURE_MITHRIL",
-  whereToSell: "bazaar",
+  displayName: 'Pure Mithril',
+  imageName: 'Pure_Mithril',
+  apiName: 'PURE_MITHRIL',
+  whereToSell: 'bazaar',
   secondsToForge: 21600,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -1204,10 +1204,10 @@ const pureMithril: ForgeItem = {
 };
 
 const titaniumTesseract: ForgeItem = {
-  displayName: "Titanium Tesseract",
-  imageName: "Titanium_Tesseract",
-  apiName: "TITANIUM_TESSERACT",
-  whereToSell: "bazaar",
+  displayName: 'Titanium Tesseract',
+  imageName: 'Titanium_Tesseract',
+  apiName: 'TITANIUM_TESSERACT',
+  whereToSell: 'bazaar',
   secondsToForge: 21600,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -1227,10 +1227,10 @@ const titaniumTesseract: ForgeItem = {
 };
 
 const dwarvenGeode: ForgeItem = {
-  displayName: "Dwarven Geode",
-  imageName: "Dwarven_Geode",
-  apiName: "ROCK_GEMSTONE",
-  whereToSell: "bazaar",
+  displayName: 'Dwarven Geode',
+  imageName: 'Dwarven_Geode',
+  apiName: 'ROCK_GEMSTONE',
+  whereToSell: 'bazaar',
   secondsToForge: 21600,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -1250,10 +1250,10 @@ const dwarvenGeode: ForgeItem = {
 };
 
 const petrifiedStarfall: ForgeItem = {
-  displayName: "Petrified Starfall",
-  imageName: "Petrified_Starfall",
-  apiName: "PETRIFIED_STARFALL",
-  whereToSell: "bazaar",
+  displayName: 'Petrified Starfall',
+  imageName: 'Petrified_Starfall',
+  apiName: 'PETRIFIED_STARFALL',
+  whereToSell: 'bazaar',
   secondsToForge: 21600,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -1269,10 +1269,10 @@ const petrifiedStarfall: ForgeItem = {
 };
 
 const pestoGoblinOmelette: ForgeItem = {
-  displayName: "Pesto Goblin Omelette",
-  imageName: "Pesto_Goblin_Omelette",
-  apiName: "Pesto Goblin Omelette",
-  whereToSell: "auction",
+  displayName: 'Pesto Goblin Omelette',
+  imageName: 'Pesto_Goblin_Omelette',
+  apiName: 'Pesto Goblin Omelette',
+  whereToSell: 'auction',
   secondsToForge: 72000,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -1292,10 +1292,10 @@ const pestoGoblinOmelette: ForgeItem = {
 };
 
 const ammonite: ForgeItem = {
-  displayName: "Ammonite Pet",
-  imageName: "Ammonite_Pet",
-  apiName: "[Lvl 1] Ammonite",
-  whereToSell: "auction",
+  displayName: 'Ammonite Pet',
+  imageName: 'Ammonite_Pet',
+  apiName: '[Lvl 1] Ammonite',
+  whereToSell: 'auction',
   secondsToForge: 259200,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -1315,10 +1315,10 @@ const ammonite: ForgeItem = {
 };
 
 const rubyDrillTX15: ForgeItem = {
-  displayName: "Ruby Drill TX-15",
-  imageName: "Enchanted_Prismarine_Shard",
-  apiName: "Ruby Drill TX-15",
-  whereToSell: "auction",
+  displayName: 'Ruby Drill TX-15',
+  imageName: 'Enchanted_Prismarine_Shard',
+  apiName: 'Ruby Drill TX-15',
+  whereToSell: 'auction',
   secondsToForge: 3600,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -1342,10 +1342,10 @@ const rubyDrillTX15: ForgeItem = {
 };
 
 const titaniumGauntlet: ForgeItem = {
-  displayName: "Titanium Gauntlet",
-  imageName: "Titanium_Gauntlet",
-  apiName: "Titanium Gauntlet",
-  whereToSell: "auction",
+  displayName: 'Titanium Gauntlet',
+  imageName: 'Titanium_Gauntlet',
+  apiName: 'Titanium Gauntlet',
+  whereToSell: 'auction',
   secondsToForge: 16200,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -1369,10 +1369,10 @@ const titaniumGauntlet: ForgeItem = {
 };
 
 const titaniumBelt: ForgeItem = {
-  displayName: "Titanium Belt",
-  imageName: "Titanium_Belt",
-  apiName: "Titanium Belt",
-  whereToSell: "auction",
+  displayName: 'Titanium Belt',
+  imageName: 'Titanium_Belt',
+  apiName: 'Titanium Belt',
+  whereToSell: 'auction',
   secondsToForge: 16200,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -1396,10 +1396,10 @@ const titaniumBelt: ForgeItem = {
 };
 
 const titaniumCloak: ForgeItem = {
-  displayName: "Titanium Cloak",
-  imageName: "Titanium_Cloak",
-  apiName: "Titanium Cloak",
-  whereToSell: "auction",
+  displayName: 'Titanium Cloak',
+  imageName: 'Titanium_Cloak',
+  apiName: 'Titanium Cloak',
+  whereToSell: 'auction',
   secondsToForge: 16200,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -1423,10 +1423,10 @@ const titaniumCloak: ForgeItem = {
 };
 
 const titaniumNecklace: ForgeItem = {
-  displayName: "Titanium Necklace",
-  imageName: "Titanium_Necklace",
-  apiName: "Titanium Necklace",
-  whereToSell: "auction",
+  displayName: 'Titanium Necklace',
+  imageName: 'Titanium_Necklace',
+  apiName: 'Titanium Necklace',
+  whereToSell: 'auction',
   secondsToForge: 16200,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -1450,10 +1450,10 @@ const titaniumNecklace: ForgeItem = {
 };
 
 const mole: ForgeItem = {
-  displayName: "Mole Pet",
-  imageName: "Mole_Pet",
-  apiName: "[Lvl 1] Mole",
-  whereToSell: "auction",
+  displayName: 'Mole Pet',
+  imageName: 'Mole_Pet',
+  apiName: '[Lvl 1] Mole',
+  whereToSell: 'auction',
   secondsToForge: 259200,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -1473,10 +1473,10 @@ const mole: ForgeItem = {
 };
 
 const mithrilDrillSXR326: ForgeItem = {
-  displayName: "Mithril Drill SX-R326",
-  imageName: "Enchanted_Prismarine_Shard",
-  apiName: "Mithril Drill SX-R326",
-  whereToSell: "auction",
+  displayName: 'Mithril Drill SX-R326',
+  imageName: 'Enchanted_Prismarine_Shard',
+  apiName: 'Mithril Drill SX-R326',
+  whereToSell: 'auction',
   secondsToForge: 30,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -1500,10 +1500,10 @@ const mithrilDrillSXR326: ForgeItem = {
 };
 
 const titaniumPlatedDrillEngine: ForgeItem = {
-  displayName: "Titanium-Plated Drill Engine",
-  imageName: "Titanium-Plated_Drill_Engine",
-  apiName: "Titanium-Plated Drill Engine",
-  whereToSell: "auction",
+  displayName: 'Titanium-Plated Drill Engine',
+  imageName: 'Titanium-Plated_Drill_Engine',
+  apiName: 'Titanium-Plated Drill Engine',
+  whereToSell: 'auction',
   secondsToForge: 108000,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -1531,10 +1531,10 @@ const titaniumPlatedDrillEngine: ForgeItem = {
 };
 
 const goblinOmelette: ForgeItem = {
-  displayName: "Goblin Omelette",
-  imageName: "Goblin_Omelette",
-  apiName: "Goblin Omelette",
-  whereToSell: "auction",
+  displayName: 'Goblin Omelette',
+  imageName: 'Goblin_Omelette',
+  apiName: 'Goblin Omelette',
+  whereToSell: 'auction',
   secondsToForge: 64800,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -1550,10 +1550,10 @@ const goblinOmelette: ForgeItem = {
 };
 
 const beaconIV: ForgeItem = {
-  displayName: "Beacon IV",
-  imageName: "Enchanted_Beacon",
-  apiName: "Beacon IV",
-  whereToSell: "auction",
+  displayName: 'Beacon IV',
+  imageName: 'Enchanted_Beacon',
+  apiName: 'Beacon IV',
+  whereToSell: 'auction',
   secondsToForge: 144000,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -1577,10 +1577,10 @@ const beaconIV: ForgeItem = {
 };
 
 const titaniumArtifact: ForgeItem = {
-  displayName: "Titanium Artifact",
-  imageName: "Titanium_Artifact",
-  apiName: "Titanium Artifact",
-  whereToSell: "auction",
+  displayName: 'Titanium Artifact',
+  imageName: 'Titanium_Artifact',
+  apiName: 'Titanium Artifact',
+  whereToSell: 'auction',
   secondsToForge: 129600,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -1600,10 +1600,10 @@ const titaniumArtifact: ForgeItem = {
 };
 
 const scorchedTopaz: ForgeItem = {
-  displayName: "Scorched Topaz",
-  imageName: "Scorched_Topaz",
-  apiName: "HOT_STUFF",
-  whereToSell: "bazaar",
+  displayName: 'Scorched Topaz',
+  imageName: 'Scorched_Topaz',
+  apiName: 'HOT_STUFF',
+  whereToSell: 'bazaar',
   secondsToForge: 21600,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -1623,10 +1623,10 @@ const scorchedTopaz: ForgeItem = {
 };
 
 const sunnySideGoblinOmelette: ForgeItem = {
-  displayName: "Sunny Side Goblin Omelette",
-  imageName: "Sunny_Side_Goblin_Omelette",
-  apiName: "Sunny Side Goblin Omelette",
-  whereToSell: "auction",
+  displayName: 'Sunny Side Goblin Omelette',
+  imageName: 'Sunny_Side_Goblin_Omelette',
+  apiName: 'Sunny Side Goblin Omelette',
+  whereToSell: 'auction',
   secondsToForge: 72000,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -1646,10 +1646,10 @@ const sunnySideGoblinOmelette: ForgeItem = {
 };
 
 const gemstoneDrillLT522: ForgeItem = {
-  displayName: "Gemstone Drill LT-522",
-  imageName: "Enchanted_Prismarine_Shard",
-  apiName: "Gemstone Drill LT-522",
-  whereToSell: "auction",
+  displayName: 'Gemstone Drill LT-522',
+  imageName: 'Enchanted_Prismarine_Shard',
+  apiName: 'Gemstone Drill LT-522',
+  whereToSell: 'auction',
   secondsToForge: 30,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -1669,10 +1669,10 @@ const gemstoneDrillLT522: ForgeItem = {
 };
 
 const gleamingCrystal: ForgeItem = {
-  displayName: "Gleaming Crystal",
-  imageName: "Gleaming_Crystal",
-  apiName: "GLEAMING_CRYSTAL",
-  whereToSell: "bazaar",
+  displayName: 'Gleaming Crystal',
+  imageName: 'Gleaming_Crystal',
+  apiName: 'GLEAMING_CRYSTAL',
+  whereToSell: 'bazaar',
   secondsToForge: 21600,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -1696,10 +1696,10 @@ const gleamingCrystal: ForgeItem = {
 };
 
 const titaniumDrillDRX355: ForgeItem = {
-  displayName: "Titanium Drill DR-X355",
-  imageName: "Enchanted_Prismarine_Shard",
-  apiName: "Titanium Drill DR-X355",
-  whereToSell: "auction",
+  displayName: 'Titanium Drill DR-X355',
+  imageName: 'Enchanted_Prismarine_Shard',
+  apiName: 'Titanium Drill DR-X355',
+  whereToSell: 'auction',
   secondsToForge: 230400,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -1731,10 +1731,10 @@ const titaniumDrillDRX355: ForgeItem = {
 };
 
 const titaniumDrillDRX455: ForgeItem = {
-  displayName: "Titanium Drill DR-X455",
-  imageName: "Enchanted_Prismarine_Shard",
-  apiName: "Titanium Drill DR-X455",
-  whereToSell: "auction",
+  displayName: 'Titanium Drill DR-X455',
+  imageName: 'Enchanted_Prismarine_Shard',
+  apiName: 'Titanium Drill DR-X455',
+  whereToSell: 'auction',
   secondsToForge: 30,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -1762,10 +1762,10 @@ const titaniumDrillDRX455: ForgeItem = {
 };
 
 const titaniumDrillDRX555: ForgeItem = {
-  displayName: "Titanium Drill DR-X555",
-  imageName: "Enchanted_Prismarine_Shard",
-  apiName: "Titanium Drill DR-X555",
-  whereToSell: "auction",
+  displayName: 'Titanium Drill DR-X555',
+  imageName: 'Enchanted_Prismarine_Shard',
+  apiName: 'Titanium Drill DR-X555',
+  whereToSell: 'auction',
   secondsToForge: 30,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -1801,10 +1801,10 @@ const titaniumDrillDRX555: ForgeItem = {
 };
 
 const titaniumInfusedFuelTank: ForgeItem = {
-  displayName: "Titanium-Infused Fuel Tank",
-  imageName: "Titanium-Infused_Fuel_Tank",
-  apiName: "Titanium-Infused Fuel Tank",
-  whereToSell: "auction",
+  displayName: 'Titanium-Infused Fuel Tank',
+  imageName: 'Titanium-Infused_Fuel_Tank',
+  apiName: 'Titanium-Infused Fuel Tank',
+  whereToSell: 'auction',
   secondsToForge: 90000,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -1832,10 +1832,10 @@ const titaniumInfusedFuelTank: ForgeItem = {
 };
 
 const beaconV: ForgeItem = {
-  displayName: "Beacon V",
-  imageName: "Enchanted_Beacon",
-  apiName: "Beacon V",
-  whereToSell: "auction",
+  displayName: 'Beacon V',
+  imageName: 'Enchanted_Beacon',
+  apiName: 'Beacon V',
+  whereToSell: 'auction',
   secondsToForge: 180000,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -1859,10 +1859,10 @@ const beaconV: ForgeItem = {
 };
 
 const titaniumRelic: ForgeItem = {
-  displayName: "Titanium Relic",
-  imageName: "Titanium_Relic",
-  apiName: "Titanium Relic",
-  whereToSell: "auction",
+  displayName: 'Titanium Relic',
+  imageName: 'Titanium_Relic',
+  apiName: 'Titanium Relic',
+  whereToSell: 'auction',
   secondsToForge: 259200,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -1882,10 +1882,10 @@ const titaniumRelic: ForgeItem = {
 };
 
 const spicyGoblinOmelette: ForgeItem = {
-  displayName: "Spicy Goblin Omelette",
-  imageName: "Spicy_Goblin_Omelette",
-  apiName: "Spicy Goblin Omelette",
-  whereToSell: "auction",
+  displayName: 'Spicy Goblin Omelette',
+  imageName: 'Spicy_Goblin_Omelette',
+  apiName: 'Spicy Goblin Omelette',
+  whereToSell: 'auction',
   secondsToForge: 72000,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -1905,10 +1905,10 @@ const spicyGoblinOmelette: ForgeItem = {
 };
 
 const gemstoneChamber: ForgeItem = {
-  displayName: "Gemstone Chamber",
-  imageName: "Gemstone_Chamber",
-  apiName: "Gemstone Chamber",
-  whereToSell: "auction",
+  displayName: 'Gemstone Chamber',
+  imageName: 'Gemstone_Chamber',
+  apiName: 'Gemstone Chamber',
+  whereToSell: 'auction',
   secondsToForge: 14400,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -1932,10 +1932,10 @@ const gemstoneChamber: ForgeItem = {
 };
 
 const topazDrillKGR12: ForgeItem = {
-  displayName: "Topaz Drill KGR-12",
-  imageName: "Enchanted_Prismarine_Shard",
-  apiName: "Topaz Drill KGR-12",
-  whereToSell: "auction",
+  displayName: 'Topaz Drill KGR-12',
+  imageName: 'Enchanted_Prismarine_Shard',
+  apiName: 'Topaz Drill KGR-12',
+  whereToSell: 'auction',
   secondsToForge: 30,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -1963,10 +1963,10 @@ const topazDrillKGR12: ForgeItem = {
 };
 
 const rubyPolishedDrillEngine: ForgeItem = {
-  displayName: "Ruby-Polished Drill Engine",
-  imageName: "Ruby-Polished_Drill_Engine",
-  apiName: "Ruby-Polished Drill Engine",
-  whereToSell: "auction",
+  displayName: 'Ruby-Polished Drill Engine',
+  imageName: 'Ruby-Polished_Drill_Engine',
+  apiName: 'Ruby-Polished Drill Engine',
+  whereToSell: 'auction',
   secondsToForge: 72000,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -1990,10 +1990,10 @@ const rubyPolishedDrillEngine: ForgeItem = {
 };
 
 const gemstoneFuelTank: ForgeItem = {
-  displayName: "Gemstone Fuel Tank",
-  imageName: "Gemstone_Fuel_Tank",
-  apiName: "Gemstone Fuel Tank",
-  whereToSell: "auction",
+  displayName: 'Gemstone Fuel Tank',
+  imageName: 'Gemstone_Fuel_Tank',
+  apiName: 'Gemstone Fuel Tank',
+  whereToSell: 'auction',
   secondsToForge: 108000,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -2017,10 +2017,10 @@ const gemstoneFuelTank: ForgeItem = {
 };
 
 const amethystGauntlet: ForgeItem = {
-  displayName: "Amethyst Gauntlet",
-  imageName: "Amethyst_Gauntlet",
-  apiName: "Amethyst Gauntlet",
-  whereToSell: "auction",
+  displayName: 'Amethyst Gauntlet',
+  imageName: 'Amethyst_Gauntlet',
+  apiName: 'Amethyst Gauntlet',
+  whereToSell: 'auction',
   secondsToForge: 86400,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -2040,10 +2040,10 @@ const amethystGauntlet: ForgeItem = {
 };
 
 const jadeBelt: ForgeItem = {
-  displayName: "Jade Belt",
-  imageName: "Jade_Belt",
-  apiName: "Jade Belt",
-  whereToSell: "auction",
+  displayName: 'Jade Belt',
+  imageName: 'Jade_Belt',
+  apiName: 'Jade Belt',
+  whereToSell: 'auction',
   secondsToForge: 86400,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -2063,10 +2063,10 @@ const jadeBelt: ForgeItem = {
 };
 
 const sapphireCloak: ForgeItem = {
-  displayName: "Sapphire Cloak",
-  imageName: "Sapphire_Cloak",
-  apiName: "Sapphire Cloak",
-  whereToSell: "auction",
+  displayName: 'Sapphire Cloak',
+  imageName: 'Sapphire_Cloak',
+  apiName: 'Sapphire Cloak',
+  whereToSell: 'auction',
   secondsToForge: 86400,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -2086,10 +2086,10 @@ const sapphireCloak: ForgeItem = {
 };
 
 const amberNecklace: ForgeItem = {
-  displayName: "Amber Necklace",
-  imageName: "Amber_Necklace",
-  apiName: "Amber Necklace",
-  whereToSell: "auction",
+  displayName: 'Amber Necklace',
+  imageName: 'Amber_Necklace',
+  apiName: 'Amber Necklace',
+  whereToSell: 'auction',
   secondsToForge: 86400,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -2109,10 +2109,10 @@ const amberNecklace: ForgeItem = {
 };
 
 const blueCheeseGoblinOmelette: ForgeItem = {
-  displayName: "Blue Cheese Goblin Omelette",
-  imageName: "Blue_Cheese_Goblin_Omelette",
-  apiName: "Blue Cheese Goblin Omelette",
-  whereToSell: "auction",
+  displayName: 'Blue Cheese Goblin Omelette',
+  imageName: 'Blue_Cheese_Goblin_Omelette',
+  apiName: 'Blue Cheese Goblin Omelette',
+  whereToSell: 'auction',
   secondsToForge: 72000,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -2132,10 +2132,10 @@ const blueCheeseGoblinOmelette: ForgeItem = {
 };
 
 const titaniumDrillDRX655: ForgeItem = {
-  displayName: "Titanium Drill DR-X655",
-  imageName: "Enchanted_Prismarine_Shard",
-  apiName: "Titanium Drill DR-X655",
-  whereToSell: "auction",
+  displayName: 'Titanium Drill DR-X655',
+  imageName: 'Enchanted_Prismarine_Shard',
+  apiName: 'Titanium Drill DR-X655',
+  whereToSell: 'auction',
   secondsToForge: 30,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -2175,10 +2175,10 @@ const titaniumDrillDRX655: ForgeItem = {
 };
 
 const jasperDillX: ForgeItem = {
-  displayName: "Jasper Drill X",
-  imageName: "Enchanted_Prismarine_Shard",
-  apiName: "Jasper Drill X",
-  whereToSell: "auction",
+  displayName: 'Jasper Drill X',
+  imageName: 'Enchanted_Prismarine_Shard',
+  apiName: 'Jasper Drill X',
+  whereToSell: 'auction',
   secondsToForge: 30,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -2202,10 +2202,10 @@ const jasperDillX: ForgeItem = {
 };
 
 const sapphirePolishedDrillEngine: ForgeItem = {
-  displayName: "Sapphire-Polished Drill Engine",
-  imageName: "Sapphire-Polished_Drill_Engine",
-  apiName: "Sapphire-Polished Drill Engine",
-  whereToSell: "auction",
+  displayName: 'Sapphire-Polished Drill Engine',
+  imageName: 'Sapphire-Polished_Drill_Engine',
+  apiName: 'Sapphire-Polished Drill Engine',
+  whereToSell: 'auction',
   secondsToForge: 72000,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -2233,10 +2233,10 @@ const sapphirePolishedDrillEngine: ForgeItem = {
 };
 
 const amberMaterial: ForgeItem = {
-  displayName: "Amber Material",
-  imageName: "Amber_Material",
-  apiName: "AMBER_MATERIAL",
-  whereToSell: "bazaar",
+  displayName: 'Amber Material',
+  imageName: 'Amber_Material',
+  apiName: 'AMBER_MATERIAL',
+  whereToSell: 'bazaar',
   secondsToForge: 21600,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -2256,10 +2256,10 @@ const amberMaterial: ForgeItem = {
 };
 
 const helmetOfDivan: ForgeItem = {
-  displayName: "Helmet of Divan",
-  imageName: "Helmet_Of_Divan",
-  apiName: "Helmet of Divan",
-  whereToSell: "auction",
+  displayName: 'Helmet of Divan',
+  imageName: 'Helmet_Of_Divan',
+  apiName: 'Helmet of Divan',
+  whereToSell: 'auction',
   secondsToForge: 82800,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -2283,10 +2283,10 @@ const helmetOfDivan: ForgeItem = {
 };
 
 const chestplateOfDivan: ForgeItem = {
-  displayName: "Chestplate of Divan",
-  imageName: "Golden_Chestplate",
-  apiName: "Chestplate of Divan",
-  whereToSell: "auction",
+  displayName: 'Chestplate of Divan',
+  imageName: 'Golden_Chestplate',
+  apiName: 'Chestplate of Divan',
+  whereToSell: 'auction',
   secondsToForge: 82800,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -2310,10 +2310,10 @@ const chestplateOfDivan: ForgeItem = {
 };
 
 const leggingsOfDivan: ForgeItem = {
-  displayName: "Leggings of Divan",
-  imageName: "Golden_Leggings",
-  apiName: "Leggings of Divan",
-  whereToSell: "auction",
+  displayName: 'Leggings of Divan',
+  imageName: 'Golden_Leggings',
+  apiName: 'Leggings of Divan',
+  whereToSell: 'auction',
   secondsToForge: 82800,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -2337,10 +2337,10 @@ const leggingsOfDivan: ForgeItem = {
 };
 
 const bootsOfDivan: ForgeItem = {
-  displayName: "Boots of Divan",
-  imageName: "Golden_Boots",
-  apiName: "Boots of Divan",
-  whereToSell: "auction",
+  displayName: 'Boots of Divan',
+  imageName: 'Golden_Boots',
+  apiName: 'Boots of Divan',
+  whereToSell: 'auction',
   secondsToForge: 82800,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -2364,10 +2364,10 @@ const bootsOfDivan: ForgeItem = {
 };
 
 const amberPolishedDrillEngine: ForgeItem = {
-  displayName: "Amber-Polished Drill Engine",
-  imageName: "Amber-Polished_Drill_Engine",
-  apiName: "Amber-Polished Drill Engine",
-  whereToSell: "auction",
+  displayName: 'Amber-Polished Drill Engine',
+  imageName: 'Amber-Polished_Drill_Engine',
+  apiName: 'Amber-Polished Drill Engine',
+  whereToSell: 'auction',
   secondsToForge: 180000,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -2395,10 +2395,10 @@ const amberPolishedDrillEngine: ForgeItem = {
 };
 
 const perfectlyCutFuelTank: ForgeItem = {
-  displayName: "Perfectly-Cut Fuel Tank",
-  imageName: "Perfectly-Cut_Fuel_Tank",
-  apiName: "Perfectly-Cut Fuel Tank",
-  whereToSell: "auction",
+  displayName: 'Perfectly-Cut Fuel Tank',
+  imageName: 'Perfectly-Cut_Fuel_Tank',
+  apiName: 'Perfectly-Cut Fuel Tank',
+  whereToSell: 'auction',
   secondsToForge: 180000,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -2423,9 +2423,9 @@ const perfectlyCutFuelTank: ForgeItem = {
 
 const divansDrill: ForgeItem = {
   displayName: "Divan's Drill",
-  imageName: "Enchanted_Prismarine_Shard",
+  imageName: 'Enchanted_Prismarine_Shard',
   apiName: "Divan's Drill",
-  whereToSell: "auction",
+  whereToSell: 'auction',
   secondsToForge: 216000,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -2450,9 +2450,9 @@ const divansDrill: ForgeItem = {
 
 const divansPowderCoating: ForgeItem = {
   displayName: "Divan's Powder Coating",
-  imageName: "Divans_Powder_Coating",
-  apiName: "DIVAN_POWDER_COATING",
-  whereToSell: "bazaar",
+  imageName: 'Divans_Powder_Coating',
+  apiName: 'DIVAN_POWDER_COATING',
+  whereToSell: 'bazaar',
   secondsToForge: 129600,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -2480,10 +2480,10 @@ const divansPowderCoating: ForgeItem = {
 };
 
 const trex: ForgeItem = {
-  displayName: "T-Rex Pet",
-  imageName: "T-Rex_Pet",
-  apiName: "[Lvl 1] T-Rex",
-  whereToSell: "auction",
+  displayName: 'T-Rex Pet',
+  imageName: 'T-Rex_Pet',
+  apiName: '[Lvl 1] T-Rex',
+  whereToSell: 'auction',
   secondsToForge: 604800,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -2503,10 +2503,10 @@ const trex: ForgeItem = {
 };
 
 const mammoth: ForgeItem = {
-  displayName: "Mammoth Pet",
-  imageName: "Mammoth_Pet",
-  apiName: "[Lvl 1] Mammoth",
-  whereToSell: "auction",
+  displayName: 'Mammoth Pet',
+  imageName: 'Mammoth_Pet',
+  apiName: '[Lvl 1] Mammoth',
+  whereToSell: 'auction',
   secondsToForge: 604800,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -2526,10 +2526,10 @@ const mammoth: ForgeItem = {
 };
 
 const spinosaurus: ForgeItem = {
-  displayName: "Spinosaurus Pet",
-  imageName: "Spinosaurus_Pet",
-  apiName: "[Lvl 1] Spinosaurus",
-  whereToSell: "auction",
+  displayName: 'Spinosaurus Pet',
+  imageName: 'Spinosaurus_Pet',
+  apiName: '[Lvl 1] Spinosaurus',
+  whereToSell: 'auction',
   secondsToForge: 604800,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -2549,10 +2549,10 @@ const spinosaurus: ForgeItem = {
 };
 
 const penguin: ForgeItem = {
-  displayName: "Penguin Pet",
-  imageName: "Penguin_Pet",
-  apiName: "[Lvl 1] Penguin",
-  whereToSell: "auction",
+  displayName: 'Penguin Pet',
+  imageName: 'Penguin_Pet',
+  apiName: '[Lvl 1] Penguin',
+  whereToSell: 'auction',
   secondsToForge: 604800,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -2572,10 +2572,10 @@ const penguin: ForgeItem = {
 };
 
 const goblin: ForgeItem = {
-  displayName: "Goblin Pet",
-  imageName: "Goblin_Pet",
-  apiName: "[Lvl 1] Goblin",
-  whereToSell: "auction",
+  displayName: 'Goblin Pet',
+  imageName: 'Goblin_Pet',
+  apiName: '[Lvl 1] Goblin',
+  whereToSell: 'auction',
   secondsToForge: 604800,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -2595,10 +2595,10 @@ const goblin: ForgeItem = {
 };
 
 const ankylosaurus: ForgeItem = {
-  displayName: "Ankylosaurus Pet",
-  imageName: "Ankylosaurus_Pet",
-  apiName: "[Lvl 1] Ankylosaurus",
-  whereToSell: "auction",
+  displayName: 'Ankylosaurus Pet',
+  imageName: 'Ankylosaurus_Pet',
+  apiName: '[Lvl 1] Ankylosaurus',
+  whereToSell: 'auction',
   secondsToForge: 604800,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -2618,10 +2618,10 @@ const ankylosaurus: ForgeItem = {
 };
 
 const dwarvenHandwarmers: ForgeItem = {
-  displayName: "Dwarven Handwarmers",
-  imageName: "Dwarven_Handwarmers",
-  apiName: "Dwarven Handwarmers",
-  whereToSell: "auction",
+  displayName: 'Dwarven Handwarmers',
+  imageName: 'Dwarven_Handwarmers',
+  apiName: 'Dwarven Handwarmers',
+  whereToSell: 'auction',
   secondsToForge: 14400,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -2649,10 +2649,10 @@ const dwarvenHandwarmers: ForgeItem = {
 };
 
 const reinforcedChisel: ForgeItem = {
-  displayName: "Reinforced Chisel",
-  imageName: "Armor_Stand",
-  apiName: "Reinforced Chisel",
-  whereToSell: "auction",
+  displayName: 'Reinforced Chisel',
+  imageName: 'Armor_Stand',
+  apiName: 'Reinforced Chisel',
+  whereToSell: 'auction',
   secondsToForge: 43200,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -2680,10 +2680,10 @@ const reinforcedChisel: ForgeItem = {
 };
 
 const glacitePlatedChisel: ForgeItem = {
-  displayName: "Glacite-Plated Chisel",
-  imageName: "Armor_Stand",
-  apiName: "Glacite-Plated Chisel",
-  whereToSell: "auction",
+  displayName: 'Glacite-Plated Chisel',
+  imageName: 'Armor_Stand',
+  apiName: 'Glacite-Plated Chisel',
+  whereToSell: 'auction',
   secondsToForge: 64800,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -2711,10 +2711,10 @@ const glacitePlatedChisel: ForgeItem = {
 };
 
 const perfectChisel: ForgeItem = {
-  displayName: "Perfect Chisel",
-  imageName: "Enchanted_Armor_Stand",
-  apiName: "Perfect Chisel",
-  whereToSell: "auction",
+  displayName: 'Perfect Chisel',
+  imageName: 'Enchanted_Armor_Stand',
+  apiName: 'Perfect Chisel',
+  whereToSell: 'auction',
   secondsToForge: 64800,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -2738,10 +2738,10 @@ const perfectChisel: ForgeItem = {
 };
 
 const dwarvenMetalTalisman: ForgeItem = {
-  displayName: "Dwarven Metal Talisman",
-  imageName: "Dwarven_Metal_Talisman",
-  apiName: "Dwarven Metal Talisman",
-  whereToSell: "auction",
+  displayName: 'Dwarven Metal Talisman',
+  imageName: 'Dwarven_Metal_Talisman',
+  apiName: 'Dwarven Metal Talisman',
+  whereToSell: 'auction',
   secondsToForge: 86400,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -2765,10 +2765,10 @@ const dwarvenMetalTalisman: ForgeItem = {
 };
 
 const portableCampfire: ForgeItem = {
-  displayName: "Portable Campfire",
-  imageName: "Furnace",
-  apiName: "Portable Campfire",
-  whereToSell: "auction",
+  displayName: 'Portable Campfire',
+  imageName: 'Furnace',
+  apiName: 'Portable Campfire',
+  whereToSell: 'auction',
   secondsToForge: 1800,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -2788,10 +2788,10 @@ const portableCampfire: ForgeItem = {
 };
 
 const tungstenRegulator: ForgeItem = {
-  displayName: "Tungsten Regulator",
-  imageName: "Tungsten_Regulator",
-  apiName: "Tungsten Regulator",
-  whereToSell: "auction",
+  displayName: 'Tungsten Regulator',
+  imageName: 'Tungsten_Regulator',
+  apiName: 'Tungsten Regulator',
+  whereToSell: 'auction',
   secondsToForge: 21600,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -2815,10 +2815,10 @@ const tungstenRegulator: ForgeItem = {
 };
 
 const pendantOfDivan: ForgeItem = {
-  displayName: "Pendant of Divan",
-  imageName: "Pendant_Of_Divan",
-  apiName: "Pendant of Divan",
-  whereToSell: "auction",
+  displayName: 'Pendant of Divan',
+  imageName: 'Pendant_Of_Divan',
+  apiName: 'Pendant of Divan',
+  whereToSell: 'auction',
   secondsToForge: 604800,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -2842,10 +2842,10 @@ const pendantOfDivan: ForgeItem = {
 };
 
 const relicOfPower: ForgeItem = {
-  displayName: "Relic of Power",
-  imageName: "Relic_Of_Power",
-  apiName: "Relic of Power",
-  whereToSell: "auction",
+  displayName: 'Relic of Power',
+  imageName: 'Relic_Of_Power',
+  apiName: 'Relic of Power',
+  whereToSell: 'auction',
   secondsToForge: 28800,
   instaSellPrice: null,
   sellOfferPrice: null,
@@ -2865,10 +2865,10 @@ const relicOfPower: ForgeItem = {
 };
 
 const skeletonKey: ForgeItem = {
-  displayName: "Skeleton Key",
-  imageName: "Tripwire_Hook",
-  apiName: "SKELETON_KEY",
-  whereToSell: "bazaar",
+  displayName: 'Skeleton Key',
+  imageName: 'Tripwire_Hook',
+  apiName: 'SKELETON_KEY',
+  whereToSell: 'bazaar',
   secondsToForge: 1800,
   instaSellPrice: null,
   sellOfferPrice: null,

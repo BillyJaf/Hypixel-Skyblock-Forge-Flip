@@ -1,6 +1,6 @@
-import { createContext, useContext, useState } from "react";
-import { defaultFilters } from "../utils/filters";
-import type { BuyFrom, SellTo, SortBy } from "../types/sort";
+import { createContext, useContext, useState } from 'react';
+import { defaultFilters } from '../utils/filters';
+import type { BuyFrom, SellTo, SortBy } from '../types/sort';
 
 export interface Filters {
   sortBy: SortBy;
@@ -39,7 +39,7 @@ export const FiltersProvider: React.FC<{ children: React.ReactNode }> = ({
 export const useFilters = () => {
   const context = useContext(FiltersContext);
   if (!context) {
-    throw new Error("No context provided.");
+    throw new Error('No context provided.');
   }
   return context;
 };

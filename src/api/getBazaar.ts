@@ -1,9 +1,8 @@
-import type { BazaarResponse, QuickStatus } from "./types";
+import type { BazaarResponse, QuickStatus } from './types';
 
 export async function fetchBazaarQuickStatus() {
-  const response = await fetch(
-      "https://api.hypixel.net/v2/skyblock/bazaar", {
-      method: "Get",
+  const response = await fetch('https://api.hypixel.net/v2/skyblock/bazaar', {
+    method: 'Get',
   });
 
   const data = await response.json();
@@ -13,11 +12,11 @@ export async function fetchBazaarQuickStatus() {
 }
 
 const bazaarResponseToQuickStatus = (bazaarResponse: BazaarResponse) => {
-    let quickStatus: QuickStatus[] = []
-    if (bazaarResponse.success) {
-        Object.entries(bazaarResponse.products).forEach(([_, product]) => {
-            quickStatus.push(product.quick_status)
-        })
-    }
-    return quickStatus
-}
+  let quickStatus: QuickStatus[] = [];
+  if (bazaarResponse.success) {
+    Object.entries(bazaarResponse.products).forEach(([_, product]) => {
+      quickStatus.push(product.quick_status);
+    });
+  }
+  return quickStatus;
+};
