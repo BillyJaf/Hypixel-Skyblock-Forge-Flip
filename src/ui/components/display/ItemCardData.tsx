@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, CircularProgress, Typography } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 
 interface ItemCardDataProps {
     title: string;
@@ -8,7 +8,7 @@ interface ItemCardDataProps {
 
 const ItemCardData: React.FC<ItemCardDataProps> = ({ title, data }: ItemCardDataProps) => {
   return (
-    <Box sx={{width: "100%", display: "flex", flexDirection: "row", columnGap: "5%"}}>
+    <Box sx={{width: "100%", display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "center"}}>
         <Typography component="div">
           {title}
         </Typography>
