@@ -56,7 +56,7 @@ const ItemCard: React.FC<ItemCardProps> = ({ forgeItem }: ItemCardProps) => {
     <Box sx={itemCardMainBoxStyle}>
       <Box sx={itemCardHeaderBoxStyle}>
         <img
-          src={`src/assets/items/${forgeItem.imageName}.webp`}
+          src={`./src/assets/items/${forgeItem.imageName}.webp`}
           className={styles.itemCard}
         />
         <Typography variant="h6" component="div">
