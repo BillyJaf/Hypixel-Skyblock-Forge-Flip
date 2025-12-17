@@ -1,6 +1,5 @@
 import type { ForgeItem } from '../types/forge';
 import {
-  ARTIFACT_OF_POWER_INGREDIENT,
   BEACON_I_INGREDIENT,
   BEACON_II_INGREDIENT,
   BEACON_III_INGREDIENT,
