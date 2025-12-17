@@ -3,7 +3,8 @@ import type { ForgeItem, IngredientItem } from "../types/forge";
 import { forgeIngredients } from "../utils/ingredients";
 import { forgeableItems } from "../utils/forgeableItems";
 import { fetchBazaarQuickStatus } from "../../api/getBazaar";
-import { fillBazaarIngredientPrices, fillBazaarItemPrices } from "../utils/prices";
+import { fillAuctionIngredientPrices, fillAuctionItemPrices, fillBazaarIngredientPrices, fillBazaarItemPrices } from "../utils/prices";
+import { fetchAuctionLBINS } from "../../api/getAuction";
 
 export interface Data {
   ingredients: IngredientItem[];
@@ -23,11 +24,20 @@ export const DataProvider: React.FC<{ children: React.ReactNode }> = ({
   useEffect(() => {
     fetchBazaarQuickStatus().then((quickStatuses) => {
 
-      // const ingredientsWithPrices = fillBazaarIngredientPrices(ingredients, quickStatuses)
-      // setIngredients(ingredientsWithPrices.map(item => ({ ...item })))
+      const ingredientsWithPrices = fillBazaarIngredientPrices(ingredients, quickStatuses)
+      setIngredients(ingredientsWithPrices.map(item => ({ ...item })))
 
-      // const itemsWithPrices = fillBazaarItemPrices(items, quickStatuses)
-      // setItems(itemsWithPrices.map(item => ({ ...item })))
+      const itemsWithPrices = fillBazaarItemPrices(items, quickStatuses)
+      setItems(itemsWithPrices.map(item => ({ ...item })))
+    })
+
+    fetchAuctionLBINS().then((LBINs) => {
+
+      const ingredientsWithPrices = fillAuctionIngredientPrices(ingredients, LBINs)
+      setIngredients(ingredientsWithPrices.map(item => ({ ...item })))
+
+      const itemsWithPrices = fillAuctionItemPrices(items, LBINs)
+      setItems(itemsWithPrices.map(item => ({ ...item })))
     })
   }, []);
 

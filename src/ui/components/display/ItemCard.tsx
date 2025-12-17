@@ -3,7 +3,7 @@ import styles from "./ItemDisplay.module.css"
 import { Box, Typography } from "@mui/material";
 import type { ForgeItem } from "../../types/forge.ts";
 import ItemCardData from "./ItemCardData.tsx";
-import { useFilters } from "../../context/FilterContext.tsx";
+import { useFilters, type Filters } from "../../context/FilterContext.tsx";
 import { timeVisualiser } from "../../utils/time.ts";
 
 const itemCardMainBoxStyle = {
@@ -41,10 +41,11 @@ const ItemCard: React.FC<ItemCardProps> = ({ forgeItem }: ItemCardProps) => {
   
   const { filters } = useFilters();
 
-  const ingredientsPrice = readablePrice(forgeItem.ingredientsPrice);
-  const productPrice = filters.sellTo === "Sell Offer" ? readablePrice(forgeItem.sellOfferPrice) : readablePrice(forgeItem.instaSellPrice);
+  const ingredientsPrice = readableIngredientPrice(forgeItem);
+  const productPrice = filters.sellTo === "Sell Offer" ? readableItemPrice(forgeItem, filters) : readableItemPrice(forgeItem, filters);
   const itemTime = `${timeVisualiser(forgeItem.secondsToForge, filters.quickForge, filters.coleQuickForge)}`;
-  const profitData = readablePrice(forgeItem.profit);
+  const profitData = readableProfit(forgeItem);
+  const sellProduct = forgeItem.whereToSell === "bazaar" ? `Product ${filters.sellTo}:` : `Product LBIN:`;
 
   return (
     <Box sx={itemCardMainBoxStyle}>
@@ -54,9 +55,9 @@ const ItemCard: React.FC<ItemCardProps> = ({ forgeItem }: ItemCardProps) => {
                 {forgeItem.displayName}
             </Typography>
         </Box>
-        <ItemCardData title={`Ingredients ${filters.buyFrom}:`} data={ingredientsPrice}/>
-        <ItemCardData title={`Product ${filters.sellTo}:`} data={productPrice}/>
         <ItemCardData title={"Time To Forge:"} data={itemTime}/>
+        <ItemCardData title={`Ingredients ${filters.buyFrom}:`} data={ingredientsPrice}/>
+        <ItemCardData title={sellProduct} data={productPrice}/>
         <ItemCardData title={`${filters.sortBy}:`} data={profitData}/>
     </Box>
   );
@@ -64,13 +65,59 @@ const ItemCard: React.FC<ItemCardProps> = ({ forgeItem }: ItemCardProps) => {
 
 export default ItemCard;
 
-const readablePrice = (price: number | null) => {
-  if (price !== null) {
-    return new Intl.NumberFormat('en-US', {
-      minimumFractionDigits: 0,
-      maximumFractionDigits: 1,
-    }).format(Math.trunc(price * 10) / 10);
-  } else {
+const readableProfit = (forgeItem: ForgeItem) => {
+  for (const ingredient of forgeItem.ingredients) {
+    if (!ingredient.item.dataIsFetched) {
+      return "Loading Data..."
+    }
+  }
+  if (!forgeItem.dataIsFetched) {
     return "Loading Data..."
   }
+  if (forgeItem.profit === null) {
+    return "No Data Available"
+  }
+  return new Intl.NumberFormat('en-US', {
+    minimumFractionDigits: 0,
+    maximumFractionDigits: 1,
+  }).format(Math.trunc(forgeItem.profit * 10) / 10);
+}
+
+const readableItemPrice = (forgeItem: ForgeItem, filters: Filters) => {
+  if (!forgeItem.dataIsFetched) {
+    return "Loading Data..."
+  }
+  let price = 0;
+  if (filters.sellTo === "Sell Offer") {
+    if (forgeItem.sellOfferPrice === null) {
+      return "No Data Available"
+    }
+    price = forgeItem.sellOfferPrice;
+  } else {
+    if (forgeItem.instaSellPrice === null) {
+      return "No Data Available"
+    }
+    price = forgeItem.instaSellPrice;
+  }
+  return new Intl.NumberFormat('en-US', {
+    minimumFractionDigits: 0,
+    maximumFractionDigits: 1,
+  }).format(Math.trunc(price * 10) / 10);
+}
+
+const readableIngredientPrice = (forgeItem: ForgeItem) => {
+  for (const ingredient of forgeItem.ingredients) {
+    if (!ingredient.item.dataIsFetched) {
+      return "Loading Data..."
+    }
+  }
+
+  if (forgeItem.ingredientsPrice === null) {
+    return "No Data Available"
+  } 
+
+  return new Intl.NumberFormat('en-US', {
+    minimumFractionDigits: 0,
+    maximumFractionDigits: 1,
+  }).format(Math.trunc(forgeItem.ingredientsPrice! * 10) / 10);
 }

@@ -5,6 +5,7 @@ export const ENCHANTED_DIAMOND_BLOCK_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -13,6 +14,7 @@ export const ENCHANTED_MITHRIL_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -21,6 +23,7 @@ export const ENCHANTED_TITANIUM_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -29,6 +32,7 @@ export const ENCHANTED_TUNGSTEN_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -37,6 +41,7 @@ export const ENCHANTED_UMBER_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -45,6 +50,7 @@ export const ENCHANTED_COAL_BLOCK_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -53,6 +59,7 @@ export const GLACITE_JEWEL_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -61,6 +68,7 @@ export const ENCHANTED_IRON_BLOCK_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -69,6 +77,7 @@ export const ENCHANTED_REDSTONE_BLOCK_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -77,6 +86,7 @@ export const GOLDEN_PLATE_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -85,6 +95,7 @@ export const TREASURITE_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -93,6 +104,7 @@ export const ENCHANTED_GOLD_BLOCK_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -101,6 +113,7 @@ export const REFINED_DIAMOND_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -109,6 +122,7 @@ export const REFINED_MITHRIL_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -117,6 +131,7 @@ export const REFINED_TITANIUM_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -125,6 +140,7 @@ export const REFINED_TUNGSTEN_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -133,6 +149,7 @@ export const REFINED_UMBER_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -141,6 +158,7 @@ export const GLACITE_AMALGAMATION_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -149,6 +167,7 @@ export const FINE_JADE_GEMSTONE_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -157,6 +176,7 @@ export const FINE_AMBER_GEMSTONE_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -165,6 +185,7 @@ export const FINE_AMETHYST_GEMSTONE_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -173,6 +194,7 @@ export const FINE_SAPPHIRE_GEMSTONE_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -181,6 +203,7 @@ export const FINE_RUBY_GEMSTONE_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -189,6 +212,7 @@ export const FINE_TOPAZ_GEMSTONE_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -197,6 +221,7 @@ export const SLUDGE_JUICE_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -205,6 +230,7 @@ export const FINE_ONYX_GEMSTONE_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -213,6 +239,7 @@ export const FINE_AQUAMARINE_GEMSTONE_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -221,6 +248,7 @@ export const FINE_CITRINE_GEMSTONE_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -229,6 +257,7 @@ export const FINE_PERIDOT_GEMSTONE_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -237,6 +266,7 @@ export const ENCHANTED_GLACTIE_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -245,6 +275,7 @@ export const FLAWLESS_JASPER_GEMSTONE_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -253,6 +284,7 @@ export const FLAWLESS_RUBY_GEMSTONE_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -261,6 +293,7 @@ export const FLAWLESS_JADE_GEMSTONE_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -269,6 +302,7 @@ export const FLAWLESS_AMBER_GEMSTONE_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -277,6 +311,7 @@ export const FLAWLESS_AMETHYST_GEMSTONE_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -285,6 +320,7 @@ export const FLAWLESS_TOPAZ_GEMSTONE_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -293,6 +329,7 @@ export const FLAWLESS_OPAL_GEMSTONE_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -301,6 +338,7 @@ export const FLAWLESS_SAPPHIRE_GEMSTONE_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -309,6 +347,7 @@ export const FLAWLESS_ONYX_GEMSTONE_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -317,6 +356,7 @@ export const FLAWLESS_AQUAMARINE_GEMSTONE_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -325,6 +365,7 @@ export const FLAWLESS_CITRINE_GEMSTONE_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -333,6 +374,7 @@ export const FLAWLESS_PERIDOT_GEMSTONE_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -341,6 +383,7 @@ export const UMBER_PLATE_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -349,6 +392,7 @@ export const TUNGSTEN_PLATE_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -357,6 +401,7 @@ export const MITHRIL_PLATE_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -365,6 +410,7 @@ export const BEJEWELED_HANDLE_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -373,6 +419,7 @@ export const ENCHANTED_GOLD_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -381,6 +428,7 @@ export const BEACON_I_INGREDIENT: IngredientItem = {
   whereToBuy: "auction",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -389,6 +437,7 @@ export const STARFALL_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -397,6 +446,7 @@ export const TUNGSTEN_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -405,6 +455,7 @@ export const DRILL_MOTOR_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -413,6 +464,7 @@ export const FUEL_CANISTER_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -421,6 +473,7 @@ export const BEACON_II_INGREDIENT: IngredientItem = {
   whereToBuy: "auction",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -429,6 +482,7 @@ export const TITANIUM_TALISMAN_INGREDIENT: IngredientItem = {
   whereToBuy: "auction",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -437,6 +491,7 @@ export const ENCHANTED_LAPIS_LAZULI_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -445,6 +500,7 @@ export const ENCHANTED_COBBLESTONE_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -453,6 +509,7 @@ export const GREEN_GOBLIN_EGG_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -461,6 +518,7 @@ export const HELIX_FOSSIL_INGREDIENT: IngredientItem = {
   whereToBuy: "auction",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -469,6 +527,7 @@ export const REFINED_MINERAL_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -477,6 +536,7 @@ export const MITHRIL_GAUNTLET_INGREDIENT: IngredientItem = {
   whereToBuy: "auction",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -485,6 +545,7 @@ export const MITHRIL_BELT_INGREDIENT: IngredientItem = {
   whereToBuy: "auction",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -493,6 +554,7 @@ export const MITHRIL_CLOAK_INGREDIENT: IngredientItem = {
   whereToBuy: "auction",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -501,6 +563,7 @@ export const MITHRIL_NECKLACE_INGREDIENT: IngredientItem = {
   whereToBuy: "auction",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -509,6 +572,7 @@ export const CLAW_FOSSIL_INGREDIENT: IngredientItem = {
   whereToBuy: "auction",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -517,6 +581,7 @@ export const MITHRIL_DRILL_SXR226_INGREDIENT: IngredientItem = {
   whereToBuy: "auction",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -525,6 +590,7 @@ export const PLASMA_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -533,6 +599,7 @@ export const GOBLIN_EGG_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -541,6 +608,7 @@ export const BEACON_III_INGREDIENT: IngredientItem = {
   whereToBuy: "auction",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -549,6 +617,7 @@ export const TITANIUM_RING_INGREDIENT: IngredientItem = {
   whereToBuy: "auction",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -557,6 +626,7 @@ export const ENCHANTED_HARD_STONE_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -565,6 +635,7 @@ export const YELLOW_GOBLIN_EGG_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -573,6 +644,7 @@ export const RUBY_DRILL_TX15_INGREDIENT: IngredientItem = {
   whereToBuy: "auction",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -581,6 +653,7 @@ export const GLOSSY_GEMSTONE_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -589,6 +662,7 @@ export const TITANIUM_DRILL_DRX355_INGREDIENT: IngredientItem = {
   whereToBuy: "auction",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -597,6 +671,7 @@ export const TITANIUM_DRILL_DRX455_INGREDIENT: IngredientItem = {
   whereToBuy: "auction",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -605,6 +680,7 @@ export const TITANIUM_DRILL_DRX555_INGREDIENT: IngredientItem = {
   whereToBuy: "auction",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -613,6 +689,7 @@ export const MITHRIL_INFUSED_FUEL_TANK_INGREDIENT: IngredientItem = {
   whereToBuy: "auction",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -621,6 +698,7 @@ export const BEACON_IV_INGREDIENT: IngredientItem = {
   whereToBuy: "auction",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -629,6 +707,7 @@ export const TITANIUM_ARTIFACT_INGREDIENT: IngredientItem = {
   whereToBuy: "auction",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -637,6 +716,7 @@ export const RED_GOBLIN_EGG_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -645,6 +725,7 @@ export const WORM_MEMBRANE_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -653,6 +734,7 @@ export const GEMSTONE_DRILL_LT522_INGREDIENT: IngredientItem = {
   whereToBuy: "auction",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -661,6 +743,7 @@ export const MAGMA_CORE_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -669,6 +752,7 @@ export const SUPERLITE_MOTOR_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -677,6 +761,7 @@ export const TITANIUM_INFUSED_FUEL_TANK_INGREDIENT: IngredientItem = {
   whereToBuy: "auction",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -685,6 +770,7 @@ export const CONTROL_SWITCH_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -693,6 +779,7 @@ export const BLUE_GOBLIN_EGG_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -701,6 +788,7 @@ export const PERFECT_SAPPHIRE_GEMSTONE_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -709,6 +797,7 @@ export const CORLEONITE_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -717,6 +806,7 @@ export const TOPAZ_DRILL_KGR12_INGREDIENT: IngredientItem = {
   whereToBuy: "auction",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -725,6 +815,7 @@ export const MITHRIL_PLATED_DRILL_ENGINE_INGREDIENT: IngredientItem = {
   whereToBuy: "auction",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -733,6 +824,7 @@ export const TITANIUM_PLATED_DRILL_ENGINE_INGREDIENT: IngredientItem = {
   whereToBuy: "auction",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -741,6 +833,7 @@ export const ELECTRON_TRANSMITTER_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -749,6 +842,7 @@ export const FTX_3070_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -757,6 +851,7 @@ export const ROBOTRON_REFLECTOR_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -765,6 +860,7 @@ export const DIVAN_FRAGMENT_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -773,6 +869,7 @@ export const SAPPHIRE_POLISHED_DRILL_ENGINE_INGREDIENTS: IngredientItem = {
   whereToBuy: "auction",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -781,6 +878,7 @@ export const RUBY_POLISHED_DRILL_ENGINE: IngredientItem = {
   whereToBuy: "auction",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -789,6 +887,7 @@ export const PERFECT_AMBER_GEMSTONE_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -797,6 +896,7 @@ export const PRECURSOR_APPARATUS_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -805,6 +905,7 @@ export const GEMSTONE_MIXTURE_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -813,6 +914,7 @@ export const GEMSTONE_FUEL_TANK_INGREDIENT: IngredientItem = {
   whereToBuy: "auction",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -821,6 +923,7 @@ export const SYNTHETIC_HEART_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -829,6 +932,7 @@ export const DIVANS_ALLOY_IGNREDIENT: IngredientItem = {
   whereToBuy: "auction",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -837,6 +941,7 @@ export const TITANIUM_DRILL_DRX655_INGREDIENT: IngredientItem = {
   whereToBuy: "auction",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -845,6 +950,7 @@ export const FOOTPRINT_FOSSIL_INGREDIENT: IngredientItem = {
   whereToBuy: "auction",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -853,6 +959,7 @@ export const SPINE_FOSSIL_INGREDIENT: IngredientItem = {
   whereToBuy: "auction",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -861,6 +968,7 @@ export const UGLY_FOSSIL_INGREDIENT: IngredientItem = {
   whereToBuy: "auction",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -869,6 +977,7 @@ export const CLUBBED_FOSSIL_INGREDIENT: IngredientItem = {
   whereToBuy: "auction",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -877,6 +986,7 @@ export const WEBBED_FOSSIL_INGREDIENT: IngredientItem = {
   whereToBuy: "auction",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -885,6 +995,7 @@ export const TUSK_FOSSIL_INGREDIENT: IngredientItem = {
   whereToBuy: "auction",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -893,6 +1004,7 @@ export const CHISEL_INGREDIENT: IngredientItem = {
   whereToBuy: "auction",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -901,6 +1013,7 @@ export const MATCH_STICKS_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -909,6 +1022,7 @@ export const PERFECT_OPAL_GEMSTONE_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -917,6 +1031,7 @@ export const REINFORCED_CHISEL_INGREDIENT: IngredientItem = {
   whereToBuy: "auction",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -925,6 +1040,7 @@ export const GLACITE_PLATED_CHISEL_INGREDIENT: IngredientItem = {
   whereToBuy: "auction",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -933,6 +1049,7 @@ export const PERFECT_PLATE_INGREDIENT: IngredientItem = {
   whereToBuy: "bazaar",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -941,6 +1058,7 @@ export const SHATTERED_LOCKET_INGREDIENT: IngredientItem = {
   whereToBuy: "auction",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -949,6 +1067,7 @@ export const ARTIFACT_OF_POWER_INGREDIENT: IngredientItem = {
   whereToBuy: "auction",
   instaBuyPrice: null,
   buyOrderPrice: null,
+  dataIsFetched: false,
 
 };
 
@@ -957,6 +1076,7 @@ export const COIN_INGREDIENT: IngredientItem = {
   whereToBuy: "purse",
   instaBuyPrice: 1,
   buyOrderPrice: 1,
+  dataIsFetched: true,
 };
 
 export const forgeIngredients: IngredientItem[] = [
@@ -1082,47 +1202,6 @@ export const forgeIngredients: IngredientItem[] = [
 ];
 
 export const forgeAuctionIngredients: string[] = [
-  "Beacon I",
-  "Beacon II",
-  "Titanium Talisman",
-  "Helix Fossil",
-  "Mithril Gauntlet",
-  "Mithril Belt",
-  "Mithril Cloak",
-  "Mithril Necklace",
-  "Claw Fossil",
-  "Mithril Drill SX-R226",
-  "Beacon III",
-  "Titanium Ring",
-  "Ruby Drill TX-15",
-  "Titanium Drill DR-X355",
-  "Titanium Drill DR-X455",
-  "Titanium Drill DR-X555",
-  "Mithril-Infused Fuel Tank",
-  "Beacon IV",
-  "Titanium Artifact",
-  "Gemstone Drill LT-522",
-  "Titanium-Infused Fuel Tank",
-  "Topaz Drill KGR-12",
-  "Titanium-Plated Drill Engine",
-  "Sapphire-Polished Drill Engine",
-  "Gemstone Fuel Tank",
-  "Divan's Alloy",
-  "Titanium Drill DR-X655",
-  "Footprint Fossil",
-  "Spine Fossil",
-  "Ugly Fossil",
-  "Clubbed Fossil",
-  "Webbed Fossil",
-  "Tusk Fossil",
-  "Chisel",
-  "Reinforced Chisel",
-  "Glacite-Plated Chisel",
-  "Shattered Locket",
-  "Artifact Of Power",
-];
-
-export let forgeAuctionIngredientsDisposable: string[] = [
   "Beacon I",
   "Beacon II",
   "Titanium Talisman",

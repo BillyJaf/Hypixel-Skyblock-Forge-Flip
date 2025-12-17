@@ -5,6 +5,7 @@ export interface IngredientItem {
   whereToBuy: Market;
   instaBuyPrice: number | null;
   buyOrderPrice: number | null; // If whereToBuy == auction, then there is no buy order price
+  dataIsFetched: boolean;
 }
 
 export interface Ingredient {
@@ -23,6 +24,7 @@ export interface ForgeItem {
   sellOfferPrice: number | null; // If whereToBuy == auction, then there is no buy order price
   profit: number | null;
   ingredientsPrice: number | null;
+  dataIsFetched: boolean;
 }
 
 

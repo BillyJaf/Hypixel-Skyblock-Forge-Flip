@@ -130,6 +130,7 @@ const refinedDiamond: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 2,
@@ -148,6 +149,7 @@ const refinedMithril: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 160,
@@ -166,6 +168,7 @@ const refinedTitanium: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 16,
@@ -184,6 +187,7 @@ const refinedTungsten: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 160,
@@ -202,6 +206,7 @@ const refinedUmber: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 160,
@@ -220,6 +225,7 @@ const fuelCanister: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 2,
@@ -238,6 +244,7 @@ const bejeweledHandle: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 3,
@@ -256,6 +263,7 @@ const drillMotor: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 1,
@@ -286,6 +294,7 @@ const goldenPlate: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 2,
@@ -312,6 +321,7 @@ const mithrilPlate: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 5,
@@ -342,6 +352,7 @@ const tungstenPlate: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 4,
@@ -364,6 +375,7 @@ const umberPlate: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 4,
@@ -386,6 +398,7 @@ const gemstoneMixture: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 4,
@@ -420,6 +433,7 @@ const galciteAmalgamation: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 4,
@@ -454,6 +468,7 @@ const perfectJasperGemstone: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 5,
@@ -472,6 +487,7 @@ const perfectRubyGemstone: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 5,
@@ -490,6 +506,7 @@ const perfectJadeGemstone: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 5,
@@ -508,6 +525,7 @@ const perfectSapphireGemstone: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 5,
@@ -526,6 +544,7 @@ const perfectAmberGemstone: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 5,
@@ -544,6 +563,7 @@ const perfectTopazGemstone: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 5,
@@ -562,6 +582,7 @@ const perfectAmethystGemstone: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 5,
@@ -580,6 +601,7 @@ const perfectOpalGemstone: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 5,
@@ -598,6 +620,7 @@ const perfectOnyxGemstone: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 5,
@@ -616,6 +639,7 @@ const perfectCitrineGemstone: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 5,
@@ -634,6 +658,7 @@ const perfectAquamarineGemstone: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 5,
@@ -652,6 +677,7 @@ const perfectPeridotGemstone: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 5,
@@ -670,6 +696,7 @@ const perfectPlate: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 1,
@@ -696,6 +723,7 @@ const mithrilPickaxe: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 64,
@@ -722,6 +750,7 @@ const beaconII: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 1,
@@ -744,6 +773,7 @@ const titaniumTalisman: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 2,
@@ -762,6 +792,7 @@ const diamonite: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 3,
@@ -780,6 +811,7 @@ const pocketIceberg: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 5,
@@ -798,6 +830,7 @@ const powerCrystal: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 256,
@@ -816,6 +849,7 @@ const bejeweledCollar: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 1,
@@ -838,6 +872,7 @@ const mithrilGauntlet: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 3,
@@ -856,6 +891,7 @@ const mithrilBelt: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 3,
@@ -874,6 +910,7 @@ const mithrilCloak: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 3,
@@ -892,6 +929,7 @@ const mithrilNecklace: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 3,
@@ -910,6 +948,7 @@ const chisel: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 1,
@@ -932,6 +971,7 @@ const tungstenKey: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 1,
@@ -954,6 +994,7 @@ const umberKey: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 1,
@@ -976,6 +1017,7 @@ const frigidHusk: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 4,
@@ -998,6 +1040,7 @@ const refinedMithrilPickaxe: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 3,
@@ -1028,6 +1071,7 @@ const mithrilDrillSXR226: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 1,
@@ -1054,6 +1098,7 @@ const mithrilInfusedFuelTank: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 5,
@@ -1080,6 +1125,7 @@ const mithrilPlatedFuelDrillEngine: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 3,
@@ -1102,6 +1148,7 @@ const beaconIII: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 1,
@@ -1124,6 +1171,7 @@ const titaniumRing: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 6,
@@ -1146,6 +1194,7 @@ const pureMithril: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 2,
@@ -1164,6 +1213,7 @@ const titaniumTesseract: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 1,
@@ -1186,6 +1236,7 @@ const dwarvenGeode: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 128,
@@ -1208,6 +1259,7 @@ const petrifiedStarfall: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 512,
@@ -1226,6 +1278,7 @@ const pestoGoblinOmelette: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 99,
@@ -1239,7 +1292,7 @@ const pestoGoblinOmelette: ForgeItem = {
 };
 
 const ammonite: ForgeItem = {
-  displayName: "[Lvl 1] Ammonite",
+  displayName: "Ammonite Pet",
   imageName: "Ammonite_Pet",
   apiName: "[Lvl 1] Ammonite",
   whereToSell: "auction",
@@ -1248,6 +1301,7 @@ const ammonite: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 1,
@@ -1270,6 +1324,7 @@ const rubyDrillTX15: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 1,
@@ -1296,6 +1351,7 @@ const titaniumGauntlet: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 16,
@@ -1322,6 +1378,7 @@ const titaniumBelt: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 16,
@@ -1348,6 +1405,7 @@ const titaniumCloak: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 16,
@@ -1374,6 +1432,7 @@ const titaniumNecklace: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 16,
@@ -1391,7 +1450,7 @@ const titaniumNecklace: ForgeItem = {
 };
 
 const mole: ForgeItem = {
-  displayName: "[Lvl 1] Mole",
+  displayName: "Mole Pet",
   imageName: "Mole_Pet",
   apiName: "[Lvl 1] Mole",
   whereToSell: "auction",
@@ -1400,6 +1459,7 @@ const mole: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 1,
@@ -1422,6 +1482,7 @@ const mithrilDrillSXR326: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 1,
@@ -1448,6 +1509,7 @@ const titaniumPlatedDrillEngine: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 10,
@@ -1478,6 +1540,7 @@ const goblinOmelette: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 99,
@@ -1496,6 +1559,7 @@ const beaconIV: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 1,
@@ -1522,6 +1586,7 @@ const titaniumArtifact: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 12,
@@ -1544,6 +1609,7 @@ const scorchedTopaz: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 128,
@@ -1566,6 +1632,7 @@ const sunnySideGoblinOmelette: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 99,
@@ -1588,6 +1655,7 @@ const gemstoneDrillLT522: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 1,
@@ -1610,6 +1678,7 @@ const gleamingCrystal: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 32,
@@ -1636,6 +1705,7 @@ const titaniumDrillDRX355: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 1,
@@ -1670,6 +1740,7 @@ const titaniumDrillDRX455: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 1,
@@ -1700,6 +1771,7 @@ const titaniumDrillDRX555: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 1,
@@ -1738,6 +1810,7 @@ const titaniumInfusedFuelTank: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 1,
@@ -1768,6 +1841,7 @@ const beaconV: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 1,
@@ -1794,6 +1868,7 @@ const titaniumRelic: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 1,
@@ -1816,6 +1891,7 @@ const spicyGoblinOmelette: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 99,
@@ -1838,6 +1914,7 @@ const gemstoneChamber: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 100,
@@ -1864,6 +1941,7 @@ const topazDrillKGR12: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 1,
@@ -1894,6 +1972,7 @@ const rubyPolishedDrillEngine: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 1,
@@ -1920,6 +1999,7 @@ const gemstoneFuelTank: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 1,
@@ -1946,6 +2026,7 @@ const amethystGauntlet: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 32,
@@ -1968,6 +2049,7 @@ const jadeBelt: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 32,
@@ -1990,6 +2072,7 @@ const sapphireCloak: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 32,
@@ -2012,6 +2095,7 @@ const amberNecklace: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 32,
@@ -2034,6 +2118,7 @@ const blueCheeseGoblinOmelette: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 99,
@@ -2056,6 +2141,7 @@ const titaniumDrillDRX655: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 1,
@@ -2098,6 +2184,7 @@ const jasperDillX: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 1,
@@ -2124,6 +2211,7 @@ const sapphirePolishedDrillEngine: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 1,
@@ -2154,6 +2242,7 @@ const amberMaterial: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 12,
@@ -2176,6 +2265,7 @@ const helmetOfDivan: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 5,
@@ -2202,6 +2292,7 @@ const chestplateOfDivan: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 8,
@@ -2228,6 +2319,7 @@ const leggingsOfDivan: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 7,
@@ -2254,6 +2346,7 @@ const bootsOfDivan: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 4,
@@ -2280,6 +2373,7 @@ const amberPolishedDrillEngine: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 1,
@@ -2310,6 +2404,7 @@ const perfectlyCutFuelTank: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 1,
@@ -2336,6 +2431,7 @@ const divansDrill: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 1,
@@ -2362,6 +2458,7 @@ const divansPowderCoating: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 32,
@@ -2383,7 +2480,7 @@ const divansPowderCoating: ForgeItem = {
 };
 
 const trex: ForgeItem = {
-  displayName: "[Lvl 1] T-Rex",
+  displayName: "T-Rex Pet",
   imageName: "T-Rex_Pet",
   apiName: "[Lvl 1] T-Rex",
   whereToSell: "auction",
@@ -2392,6 +2489,7 @@ const trex: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 1,
@@ -2405,7 +2503,7 @@ const trex: ForgeItem = {
 };
 
 const mammoth: ForgeItem = {
-  displayName: "[Lvl 1] Mammoth",
+  displayName: "Mammoth Pet",
   imageName: "Mammoth_Pet",
   apiName: "[Lvl 1] Mammoth",
   whereToSell: "auction",
@@ -2414,6 +2512,7 @@ const mammoth: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 1,
@@ -2427,7 +2526,7 @@ const mammoth: ForgeItem = {
 };
 
 const spinosaurus: ForgeItem = {
-  displayName: "[Lvl 1] Spinosaurus",
+  displayName: "Spinosaurus Pet",
   imageName: "Spinosaurus_Pet",
   apiName: "[Lvl 1] Spinosaurus",
   whereToSell: "auction",
@@ -2436,6 +2535,7 @@ const spinosaurus: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 1,
@@ -2449,7 +2549,7 @@ const spinosaurus: ForgeItem = {
 };
 
 const penguin: ForgeItem = {
-  displayName: "[Lvl 1] Penguin",
+  displayName: "Penguin Pet",
   imageName: "Penguin_Pet",
   apiName: "[Lvl 1] Penguin",
   whereToSell: "auction",
@@ -2458,6 +2558,7 @@ const penguin: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 1,
@@ -2471,7 +2572,7 @@ const penguin: ForgeItem = {
 };
 
 const goblin: ForgeItem = {
-  displayName: "[Lvl 1] Goblin",
+  displayName: "Goblin Pet",
   imageName: "Goblin_Pet",
   apiName: "[Lvl 1] Goblin",
   whereToSell: "auction",
@@ -2480,6 +2581,7 @@ const goblin: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 1,
@@ -2493,7 +2595,7 @@ const goblin: ForgeItem = {
 };
 
 const ankylosaurus: ForgeItem = {
-  displayName: "[Lvl 1] Ankylosaurus",
+  displayName: "Ankylosaurus Pet",
   imageName: "Ankylosaurus_Pet",
   apiName: "[Lvl 1] Ankylosaurus",
   whereToSell: "auction",
@@ -2502,6 +2604,7 @@ const ankylosaurus: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 1,
@@ -2524,6 +2627,7 @@ const dwarvenHandwarmers: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 1,
@@ -2554,6 +2658,7 @@ const reinforcedChisel: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 1,
@@ -2584,6 +2689,7 @@ const glacitePlatedChisel: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 1,
@@ -2614,6 +2720,7 @@ const perfectChisel: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 1,
@@ -2640,6 +2747,7 @@ const dwarvenMetalTalisman: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 4,
@@ -2666,6 +2774,7 @@ const portableCampfire: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 1,
@@ -2688,6 +2797,7 @@ const tungstenRegulator: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 1,
@@ -2714,6 +2824,7 @@ const pendantOfDivan: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 1,
@@ -2740,6 +2851,7 @@ const relicOfPower: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 1,
@@ -2762,6 +2874,7 @@ const skeletonKey: ForgeItem = {
   sellOfferPrice: null,
   profit: null,
   ingredientsPrice: null,
+  dataIsFetched: false,
   ingredients: [
     {
       quantity: 1,

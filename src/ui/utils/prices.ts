@@ -11,6 +11,9 @@ export const fillBazaarIngredientPrices = (ingredientItems: IngredientItem[], qu
                 break;
             }
         }
+        if (ingredientItem.whereToBuy === "bazaar") {
+            ingredientItem.dataIsFetched = true;
+        }
     })
     return ingredientItems;
 }
@@ -21,20 +24,23 @@ export const fillBazaarItemPrices = (forgeItems: ForgeItem[], quickStatuses: Qui
             if (forgeItem.apiName === quickStatus.productId) {
                 forgeItem.sellOfferPrice = quickStatus.buyPrice
                 forgeItem.instaSellPrice = quickStatus.sellPrice
+                forgeItem.dataIsFetched = true;
                 break;
             }
+        }
+        if (forgeItem.whereToSell === "bazaar") {
+            forgeItem.dataIsFetched = true;
         }
     })
     return forgeItems;
 }
 
 export const fillProfitAndIngredientPrices = (forgeItems: ForgeItem[], filters: Filters) => {
-    let result = forgeItems;
-    result.forEach((forgeItem) => {
+    forgeItems.forEach((forgeItem) => {
         forgeItem.ingredientsPrice = calculateIngredientPrice(forgeItem, filters)
         forgeItem.profit = calculateProfit(forgeItem, filters)
     })
-    return result;
+    return forgeItems;
 }
 
 const calculateIngredientPrice = (forgeItem: ForgeItem, filters: Filters) => {
@@ -79,4 +85,33 @@ const calculateProfit = (forgeItem: ForgeItem, filters: Filters) => {
     }
 
     return price;
+}
+
+export const fillAuctionIngredientPrices = (ingredientItems: IngredientItem[], LBINs: {[displayName: string]: number | null}) => {
+    ingredientItems.forEach((ingredientItem) => {
+        if (ingredientItem.apiName in LBINs) {
+            ingredientItem.buyOrderPrice = LBINs[ingredientItem.apiName]
+            ingredientItem.instaBuyPrice = LBINs[ingredientItem.apiName]
+        }
+        if (ingredientItem.whereToBuy === "auction") {
+            ingredientItem.dataIsFetched = true;
+        }
+    })
+    return ingredientItems;
+}
+
+export const fillAuctionItemPrices = (forgeItems: ForgeItem[], LBINs: {[displayName: string]: number | null}) => {
+    forgeItems.forEach((forgeItem) => {
+        if (forgeItem.apiName in LBINs) {
+            forgeItem.sellOfferPrice = LBINs[forgeItem.apiName]
+            forgeItem.instaSellPrice = LBINs[forgeItem.apiName]
+        } else if(forgeItem.displayName in LBINs) {
+            forgeItem.sellOfferPrice = LBINs[forgeItem.displayName]
+            forgeItem.instaSellPrice = LBINs[forgeItem.displayName]
+        }
+        if (forgeItem.whereToSell === "auction") {
+            forgeItem.dataIsFetched = true;
+        }
+    })
+    return forgeItems;
 }
