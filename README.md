@@ -5,8 +5,9 @@ As skyblock is a free market, each of the ingredients can be bought from players
 This application fetches all the relevant data, calculates the cost of buying all the ingredients and tells the user what is the best item to forge for profit.
 The application allows for the filtering of bazaar / auction items as well as gemstones, reforge stones, pets and tools. The user can also toggle quick forge and cole-quick forge times and toggle between profit-per-hour and profit-per-forge.   
 
-The project can be found [here](https://prod.dr0l1lxoo4159.amplifyapp.com/).
-The Hypixel API can be found [here](https://api.hypixel.net/).
+The project can be found [here](https://prod.dr0l1lxoo4159.amplifyapp.com/).   
+The Hypixel API can be found [here](https://api.hypixel.net/).   
+The old porject that this project expands on can be found [here](https://github.com/BillyJaf/Hypixel-Skyblock-Forge-Flip-Old).
 
 # Usage
 
