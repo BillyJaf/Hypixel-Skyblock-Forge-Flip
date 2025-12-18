@@ -7,7 +7,7 @@ The application allows for the filtering of bazaar / auction items as well as ge
 
 The project can be found [here](https://prod.dr0l1lxoo4159.amplifyapp.com/).   
 The Hypixel API can be found [here](https://api.hypixel.net/).   
-The old porject that this project expands on can be found [here](https://github.com/BillyJaf/Hypixel-Skyblock-Forge-Flip-Old).
+The old project that this project expands upon can be found [here](https://github.com/BillyJaf/Hypixel-Skyblock-Forge-Flip-Old).
 
 # Usage
 
